@@ -8,34 +8,40 @@
     <script src="controllers.js"></script>
 </head>
 <body ng-controller="BattleCtrl">
-    <div ng-repeat="battle in battles">
-        <span>Battle for {{battle.sysname}} {{battle.structname}}</span>
-        <div>
-            <span>Battle Tracker</span>
-            <ul>
-                <li ng-repeat="corp in battle.corps">
-                    <span>{{corp.name}} - {{corp.num}}</span>
-                </li>
-            </ul>
-            <ul>
-                <li ng-repeat="event in battle.events">
-                    <span>{{event.text}}</span>
-                </li>
-            </ul>
-        </div>
-        <div ng-repeat="system in systems">
-            <span>{{system.name}}</span>
-            <ul>
-                <li ng-repeat="corp in system.corps">
-                    <span>{{corp.name}} - {{corp.num}}</span>
-                </li>
-            </ul>
-            <ul>
-                <li ng-repeat="event in system.events">
-                    <span>{{event.time}} - {{event.text}}</span>
-                </li>
-            </ul>
-        </div>
+    <div class="row" ng-repeat="battle in stratop.battles">
+        <span class="col-md-8 h1">Battle for {{battle.sysname}} {{battle.structname}}</span>
+        <ul>
+            <li ng-repeat="node in battle.nodes">
+                <span>{{node.control}} - {{node.name}}</span>
+            </li>
+        </ul>
+    </div>
+    <div>
+        <span>Battle Tracker</span>
+        <ul>
+            <li ng-repeat="corp in stratop.status.corps">
+                <span>{{corp.name}} - {{corp.num}}</span>
+            </li>
+        </ul>
+        <ul>
+            <li ng-repeat="event in stratop.status.events">
+                <span>{{event.text}}</span>
+            </li>
+        </ul>
+    </div>
+    <object id="map" data="J-9M7D.svg" type="image/svg+xml" width="500" height="500"></object>
+    <div ng-repeat="system in stratop.systems">
+        <span>{{system.name}}</span>
+        <ul>
+            <li ng-repeat="corp in system.corps">
+                <span>{{corp.name}} - {{corp.num}}</span>
+            </li>
+        </ul>
+        <ul>
+            <li ng-repeat="event in system.events">
+                <span>{{event.time}} - {{event.text}}</span>
+            </li>
+        </ul>
     </div>
 </body>
 </html>
