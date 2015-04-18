@@ -4,8 +4,7 @@ import json
 
 app = Flask(__name__)
 
-
-@app.route('/test')
+@app.route('/test', methods=['POST'])
 def test():
     ret = {
         'battles': [{
@@ -68,7 +67,6 @@ def update():
 @app.route('/publish', methods=['POST'])
 def publish():
     pass
-
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', debug=True)
