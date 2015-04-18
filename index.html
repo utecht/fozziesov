@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en" ng-app="fozziesovApp">
+<head>
+    <meta charset="utf-8">
+    <title>FOZZIE SOV</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <script src="angular.min.js"></script>
+    <script src="controllers.js"></script>
+</head>
+<body ng-controller="BattleCtrl">
+    <div ng-repeat="battle in battles">
+        <span>Battle for {{battle.sysname}} {{battle.structname}}</span>
+        <div>
+            <span>Battle Tracker</span>
+            <ul>
+                <li ng-repeat="corp in battle.corps">
+                    <span>{{corp.name}} - {{corp.num}}</span>
+                </li>
+            </ul>
+            <ul>
+                <li ng-repeat="event in battle.events">
+                    <span>{{event.text}}</span>
+                </li>
+            </ul>
+        </div>
+        <div ng-repeat="system in systems">
+            <span>{{system.name}}</span>
+            <ul>
+                <li ng-repeat="corp in system.corps">
+                    <span>{{corp.name}} - {{corp.num}}</span>
+                </li>
+            </ul>
+            <ul>
+                <li ng-repeat="event in system.events">
+                    <span>{{event.time}} - {{event.text}}</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
