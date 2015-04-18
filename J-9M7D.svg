@@ -1,0 +1,1303 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="svgdoc"
+   width="185.02774"
+   height="178"
+   viewBox="0 0 185.02774 178"
+   onload="init(evt)"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="J-9M7D.svg">
+  <metadata
+     id="metadata232">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs230" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="768"
+     id="namedview228"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="1.6241359"
+     inkscape:cx="117.55188"
+     inkscape:cy="95.261101"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svgdoc" />
+  <style
+     type="text/css"
+     id="style3">
+
+/* jumps */
+.j	{ stroke: #000000; stroke-width: 1; }
+.jc	{ stroke: #FF0000; stroke-width: 1; }
+.jr	{ stroke: #800080; stroke-width: 1; }
+.jx	{ stroke: #000000; stroke-width: 3; }
+.jxc	{ stroke: #FF0000; stroke-width: 3; }
+.jxr	{ stroke: #800080; stroke-width: 3; }
+.jb	{ stroke: #0000FF; stroke-width: 3; fill: none; }
+
+/* external system */
+.eh	{ stroke: #00B000; stroke-width: 1; fill: #CCCCCC; }
+.el	{ stroke: #F00000; stroke-width: 1; stroke-dasharray: 8, 4; fill: #CCCCCC; }
+.e	{ stroke: #000000; stroke-width: 1; fill: #CCCCCC; }
+.exh	{ stroke: #00B000; stroke-width: 2; fill: #CCCCCC; }
+.exl	{ stroke: #F00000; stroke-width: 2; stroke-dasharray: 8, 3; fill: #CCCCCC; }
+.ex	{ stroke: #000000; stroke-width: 2; fill: #CCCCCC; }
+
+/* external system text */ 
+.es	{ font-size: 9px; font-family: Arial, Helvetica, sans-serif; fill: #000000; }
+.er	{ font-weight: bold; font-size: 7px; font-family: verdana, Arial, sans-serif; fill: #000000; }
+
+/* system */
+.sh	{ stroke: #00B000; stroke-width: 1; }
+.sl	{ stroke: #F00000; stroke-width: 1; stroke-dasharray: 8, 3 }
+.s	{ stroke: #000000; stroke-width: 1; }
+.sxh	{ stroke: #00B000; stroke-width: 2.5; }
+.sxl	{ stroke: #F00000; stroke-width: 2.5; stroke-dasharray: 8, 3; }
+.sx	{ stroke: #000000; stroke-width: 2.5; }
+.scl	{ stroke: transparent; stroke-width: 2; fill: transparent; }
+
+/* system text */
+.ss	{ font-family: Arial, Helvetica, sans-serif; font-size: 9px; fill: #000000; }
+.st	{ font-weight: bold; font-size: 7px; font-family: verdana, Arial, sans-serif; fill: #000000; }
+.so	{ fill: #ff0000; }
+.i	{ stroke: #0080FF; stroke-width: 1; fill: none; }
+
+/* station */
+.o	{ fill: #ffffff; }
+.oc	{ fill: #0000FF; }
+.oa	{ fill: #FFDC00; }
+.og	{ fill: #00FF00; }
+.om	{ fill: #FF0000; }
+.o1	{ fill: #ffffff; stroke-width: 0.5; stroke: #000000; }
+.o2	{ fill: #ffffff; stroke-width: 0.5; stroke: #000000; }
+.oo	{ fill: none; stroke: #000000; stroke-width: 1; }
+
+/* station services */
+.v1	{ fill: #FF0000; }
+.v2	{ fill: #00FF00; }
+.v3	{ fill: #FFDC00; }
+.v4	{ fill: #0000FF; }
+
+/* legend */
+.lb	{ stroke-width: 1; stroke: #000000; fill: #ffffff; }
+.lbt	{ stroke-width: 1; stroke: #000000; fill: #ffffff; }
+.lt	{ fill: #000000; font-family: Arial, Helvetica, sans-serif; font-weight: bold; font-size: 12px; }
+.lc	{ fill: #000000; font-family: Arial, Helvetica, sans-serif; font-size: 11px; }
+.l	{ fill: #000000; font-family: Arial, Helvetica, sans-serif; font-size: 10px; }
+
+/* highlight */
+.h	{ fill: none; stroke-width: 3; stroke: #000000; }
+.hw	{ fill: none; stroke-width: 2; stroke: #00AA00; }
+.hl	{ fill: none; stroke-width: 2; stroke: #F00000; }
+.hg	{ fill: none; stroke-width: 2; stroke: #00B000; }
+
+/* incursion */
+.inc	{ fill: url(#incBg); }
+.incs	{ fill: url(#incStBg); }
+
+/* contested */
+.con	{ fill: url(#conBg); }
+
+</style>
+  <g
+     id="map"
+     transform="translate(-3.5,-503)">
+    <defs
+       id="defs6">
+      <symbol
+         id="def30000574">
+        <a
+           xlink:href="http://evemaps.dotlan.net/system/H6-EYX"
+           class="sys link-5-30000574"
+           target="_top"
+           id="a9"
+           style="stroke:#000000;stroke-width:1">
+          <rect
+             id="rect30000574"
+             x="4"
+             y="3.5"
+             rx="11"
+             ry="11"
+             width="50"
+             height="22"
+             class="s"
+             style="fill:#bfa26b;stroke:#000000;stroke-width:1" />
+          <text
+             x="28"
+             y="14"
+             class="ss"
+             id="text12"
+             style="font-size:9px;font-family:Arial, Helvetica, sans-serif;text-anchor:middle;fill:#000000">H6-EYX</text>
+          <text
+             id="txt30000574"
+             x="28"
+             y="21.700001"
+             class="st so"
+             style="font-weight:bold;font-size:7px;font-family:verdana, Arial, sans-serif;text-anchor:middle;fill:#ff0000">-GE- (3)</text>
+        </a>
+        <rect
+           x="49.599998"
+           y="9.5"
+           height="11"
+           width="11"
+           class="om"
+           id="rect15"
+           style="fill:#ff0000" />
+        <polygon
+           points="51.8,15 51.8,15 58.4,11.7 58.4,18.3 "
+           class="o1"
+           id="polygon17"
+           style="fill:#ffffff;stroke:#000000;stroke-width:0.5" />
+        <rect
+           x="49.599998"
+           y="9.5"
+           height="11"
+           width="11"
+           class="oo"
+           id="rect19"
+           style="fill:none;stroke:#000000;stroke-width:1" />
+      </symbol>
+      <symbol
+         id="def30000576">
+        <a
+           xlink:href="http://evemaps.dotlan.net/system/4-EFLU"
+           class="sys link-5-30000576"
+           target="_top"
+           id="a22"
+           style="stroke:#000000;stroke-width:1">
+          <rect
+             id="rect30000576"
+             x="4"
+             y="3.5"
+             rx="11"
+             ry="11"
+             width="50"
+             height="22"
+             class="s"
+             style="fill:#bfa26b;stroke:#000000;stroke-width:1" />
+          <text
+             x="28"
+             y="14"
+             class="ss"
+             id="text25"
+             style="font-size:9px;font-family:Arial, Helvetica, sans-serif;text-anchor:middle;fill:#000000">4-EFLU</text>
+          <text
+             id="txt30000576"
+             x="28"
+             y="21.700001"
+             class="st so"
+             style="font-weight:bold;font-size:7px;font-family:verdana, Arial, sans-serif;text-anchor:middle;fill:#ff0000">-GE- (4)</text>
+        </a>
+        <rect
+           x="49.599998"
+           y="9.5"
+           height="11"
+           width="11"
+           class="o"
+           id="rect28"
+           style="fill:#ffffff" />
+        <polygon
+           points="60.6,9.5 60.6,9.5 55.1,15 60.6,20.5 "
+           class="v2"
+           id="polygon30"
+           style="fill:#00ff00" />
+        <polygon
+           points="60.6,20.5 60.6,20.5 55.1,15 49.6,20.5 "
+           class="v3"
+           id="polygon32"
+           style="fill:#ffdc00" />
+        <polygon
+           points="49.6,20.5 49.6,20.5 55.1,15 49.6,9.5 "
+           class="v4"
+           id="polygon34"
+           style="fill:#0000ff" />
+        <rect
+           x="52.900002"
+           y="12.8"
+           height="4.4000001"
+           width="4.4000001"
+           class="o2"
+           id="rect36"
+           style="fill:#ffffff;stroke:#000000;stroke-width:0.5" />
+        <rect
+           x="49.599998"
+           y="9.5"
+           height="11"
+           width="11"
+           class="oo"
+           id="rect38"
+           style="fill:none;stroke:#000000;stroke-width:1" />
+      </symbol>
+      <symbol
+         id="def30000577">
+        <a
+           xlink:href="http://evemaps.dotlan.net/system/EIH-IU"
+           class="sys link-5-30000577"
+           target="_top"
+           id="a41"
+           style="stroke:#000000;stroke-width:1">
+          <rect
+             id="rect30000577"
+             x="4"
+             y="3.5"
+             rx="11"
+             ry="11"
+             width="50"
+             height="22"
+             class="s"
+             style="fill:#feff7f;stroke:#000000;stroke-width:1" />
+          <text
+             x="28"
+             y="14"
+             class="ss"
+             id="text44"
+             style="font-size:9px;font-family:Arial, Helvetica, sans-serif;text-anchor:middle;fill:#000000">EIH-IU</text>
+          <text
+             id="txt30000577"
+             x="28"
+             y="21.700001"
+             class="st so"
+             style="font-weight:bold;font-size:7px;font-family:verdana, Arial, sans-serif;text-anchor:middle;fill:#ff0000">GCLUB (4)</text>
+        </a>
+      </symbol>
+      <symbol
+         id="def30000573">
+        <a
+           xlink:href="http://evemaps.dotlan.net/system/1-7B6D"
+           class="sys link-5-30000573"
+           target="_top"
+           id="a48"
+           style="stroke:#000000;stroke-width:1">
+          <rect
+             id="rect30000573"
+             x="4"
+             y="3.5"
+             rx="11"
+             ry="11"
+             width="50"
+             height="22"
+             class="s"
+             style="fill:#ebb3ef;stroke:#000000;stroke-width:1" />
+          <text
+             x="28"
+             y="14"
+             class="ss"
+             id="text51"
+             style="font-size:9px;font-family:Arial, Helvetica, sans-serif;text-anchor:middle;fill:#000000">1-7B6D</text>
+          <text
+             id="txt30000573"
+             x="28"
+             y="21.700001"
+             class="st so"
+             style="font-weight:bold;font-size:7px;font-family:verdana, Arial, sans-serif;text-anchor:middle;fill:#ff0000">TEST (2)</text>
+        </a>
+        <rect
+           x="49.599998"
+           y="9.5"
+           height="11"
+           width="11"
+           class="oa"
+           id="rect54"
+           style="fill:#ffdc00" />
+        <polygon
+           points="51.8,15 51.8,15 58.4,11.7 58.4,18.3 "
+           class="o1"
+           id="polygon56"
+           style="fill:#ffffff;stroke:#000000;stroke-width:0.5" />
+        <rect
+           x="49.599998"
+           y="9.5"
+           height="11"
+           width="11"
+           class="oo"
+           id="rect58"
+           style="fill:none;stroke:#000000;stroke-width:1" />
+      </symbol>
+      <symbol
+         id="def30000575">
+        <a
+           xlink:href="http://evemaps.dotlan.net/system/U-HVIX"
+           class="sys link-5-30000575"
+           target="_top"
+           id="a61"
+           style="stroke:#000000;stroke-width:1">
+          <rect
+             id="rect30000575"
+             x="4"
+             y="3.5"
+             rx="11"
+             ry="11"
+             width="50"
+             height="22"
+             class="s"
+             style="fill:#ebb3ef;stroke:#000000;stroke-width:1" />
+          <text
+             x="28"
+             y="14"
+             class="ss"
+             id="text64"
+             style="font-size:9px;font-family:Arial, Helvetica, sans-serif;text-anchor:middle;fill:#000000">U-HVIX</text>
+          <text
+             id="txt30000575"
+             x="28"
+             y="21.700001"
+             class="st so"
+             style="font-weight:bold;font-size:7px;font-family:verdana, Arial, sans-serif;text-anchor:middle;fill:#ff0000">TEST (2)</text>
+        </a>
+        <rect
+           x="49.599998"
+           y="9.5"
+           height="11"
+           width="11"
+           class="oa"
+           id="rect67"
+           style="fill:#ffdc00" />
+        <polygon
+           points="51.8,15 51.8,15 58.4,11.7 58.4,18.3 "
+           class="o1"
+           id="polygon69"
+           style="fill:#ffffff;stroke:#000000;stroke-width:0.5" />
+        <rect
+           x="49.599998"
+           y="9.5"
+           height="11"
+           width="11"
+           class="oo"
+           id="rect71"
+           style="fill:none;stroke:#000000;stroke-width:1" />
+      </symbol>
+      <symbol
+         id="def30000572">
+        <a
+           xlink:href="http://evemaps.dotlan.net/system/F-QQ5N"
+           class="sys link-5-30000572"
+           target="_top"
+           id="a74"
+           style="stroke:#000000;stroke-width:1">
+          <rect
+             id="rect30000572"
+             x="4"
+             y="3.5"
+             rx="11"
+             ry="11"
+             width="50"
+             height="22"
+             class="s"
+             style="fill:#bfa26b;stroke:#000000;stroke-width:1" />
+          <text
+             x="28"
+             y="14"
+             class="ss"
+             id="text77"
+             style="font-size:9px;font-family:Arial, Helvetica, sans-serif;text-anchor:middle;fill:#000000">F-QQ5N</text>
+          <text
+             id="txt30000572"
+             x="28"
+             y="21.700001"
+             class="st so"
+             style="font-weight:bold;font-size:7px;font-family:verdana, Arial, sans-serif;text-anchor:middle;fill:#ff0000">-GE- (4)</text>
+        </a>
+        <rect
+           x="49.599998"
+           y="9.5"
+           height="11"
+           width="11"
+           class="oa"
+           id="rect80"
+           style="fill:#ffdc00" />
+        <polygon
+           points="51.8,15 51.8,15 58.4,11.7 58.4,18.3 "
+           class="o1"
+           id="polygon82"
+           style="fill:#ffffff;stroke:#000000;stroke-width:0.5" />
+        <rect
+           x="49.599998"
+           y="9.5"
+           height="11"
+           width="11"
+           class="oo"
+           id="rect84"
+           style="fill:none;stroke:#000000;stroke-width:1" />
+      </symbol>
+      <radialGradient
+         id="conBg">
+        <stop
+           offset="50%"
+           stop-color="#FFA0FF"
+           id="stop87" />
+        <stop
+           offset="95%"
+           stop-color="#FFA0FF"
+           stop-opacity="0"
+           id="stop89" />
+      </radialGradient>
+      <radialGradient
+         id="incBg">
+        <stop
+           offset="50%"
+           stop-color="#AFCE00"
+           id="stop92" />
+        <stop
+           offset="100%"
+           stop-color="#AFCE00"
+           stop-opacity="0"
+           id="stop94" />
+      </radialGradient>
+      <radialGradient
+         id="incStBg">
+        <stop
+           offset="50%"
+           stop-color="#808000"
+           id="stop97" />
+        <stop
+           offset="100%"
+           stop-color="#808000"
+           stop-opacity="0"
+           id="stop99" />
+      </radialGradient>
+    </defs>
+    <text
+       x="10"
+       y="20"
+       id="debug"
+       style="fill:#888888" />
+    <g
+       id="glow" />
+    <g
+       id="jumps">
+      <line
+         id="j-30000573-30000572"
+         x1="98.5"
+         y1="594.5"
+         x2="63.5"
+         y2="554.5"
+         class="j"
+         style="stroke:#000000;stroke-width:1" />
+      <line
+         id="j-30000575-30000572"
+         x1="98.5"
+         y1="594.5"
+         x2="63.5"
+         y2="629.5"
+         class="j"
+         style="stroke:#000000;stroke-width:1" />
+      <line
+         id="j-30000576-30000572"
+         x1="98.5"
+         y1="594.5"
+         x2="28.5"
+         y2="594.5"
+         class="j"
+         style="stroke:#000000;stroke-width:1" />
+      <line
+         id="j-30000579-30000572"
+         x1="98.5"
+         y1="594.5"
+         x2="188.5"
+         y2="599.5"
+         class="jc"
+         style="stroke:#ff0000;stroke-width:1" />
+      <line
+         id="j-30000574-30000573"
+         x1="63.5"
+         y1="554.5"
+         x2="28.5"
+         y2="514.5"
+         class="j"
+         style="stroke:#000000;stroke-width:1" />
+      <line
+         id="j-30000576-30000573"
+         x1="63.5"
+         y1="554.5"
+         x2="28.5"
+         y2="594.5"
+         class="j"
+         style="stroke:#000000;stroke-width:1" />
+      <line
+         id="j-30000576-30000575"
+         x1="63.5"
+         y1="629.5"
+         x2="28.5"
+         y2="594.5"
+         class="j"
+         style="stroke:#000000;stroke-width:1" />
+      <line
+         id="j-30000577-30000575"
+         x1="63.5"
+         y1="629.5"
+         x2="28.5"
+         y2="669.5"
+         class="j"
+         style="stroke:#000000;stroke-width:1" />
+    </g>
+    <g
+       id="sysuse">
+      <use
+         id="sys30000571"
+         x="0"
+         y="35"
+         width="62.5"
+         height="30"
+         xlink:href="#def30000571" />
+      <use
+         id="sys30000567"
+         x="0"
+         y="85"
+         width="62.5"
+         height="30"
+         xlink:href="#def30000567" />
+      <use
+         id="sys30000574"
+         x="0"
+         y="500"
+         width="62.5"
+         height="30"
+         xlink:href="#def30000574" />
+      <use
+         id="sys30000576"
+         x="0"
+         y="580"
+         width="62.5"
+         height="30"
+         xlink:href="#def30000576" />
+      <use
+         id="sys30000577"
+         x="0"
+         y="655"
+         width="62.5"
+         height="30"
+         xlink:href="#def30000577" />
+      <use
+         id="sys30000568"
+         x="20"
+         y="125"
+         width="62.5"
+         height="30"
+         xlink:href="#def30000568" />
+      <use
+         id="sys30000573"
+         x="35"
+         y="540"
+         width="62.5"
+         height="30"
+         xlink:href="#def30000573" />
+      <use
+         id="sys30000575"
+         x="35"
+         y="615"
+         width="62.5"
+         height="30"
+         xlink:href="#def30000575" />
+      <use
+         id="sys30000583"
+         x="50"
+         y="470"
+         width="62.5"
+         height="30"
+         xlink:href="#def30000583" />
+      <use
+         id="sys30000569"
+         x="55"
+         y="50"
+         width="62.5"
+         height="30"
+         xlink:href="#def30000569" />
+      <use
+         id="sys30000565"
+         x="70"
+         y="90"
+         width="62.5"
+         height="30"
+         xlink:href="#def30000565" />
+      <use
+         id="sys30000570"
+         x="70"
+         y="165"
+         width="62.5"
+         height="30"
+         xlink:href="#def30000570" />
+      <use
+         id="sys30000572"
+         x="70"
+         y="580"
+         width="62.5"
+         height="30"
+         xlink:href="#def30000572" />
+      <use
+         id="sys30000566"
+         x="110"
+         y="125"
+         width="62.5"
+         height="30"
+         xlink:href="#def30000566" />
+      <use
+         id="sys30000605"
+         x="145"
+         y="75"
+         width="62.5"
+         height="30"
+         xlink:href="#def30000605" />
+      <use
+         id="sys30000563"
+         x="145"
+         y="325"
+         width="62.5"
+         height="30"
+         xlink:href="#def30000563" />
+      <use
+         id="sys30000584"
+         x="150"
+         y="500"
+         width="62.5"
+         height="30"
+         xlink:href="#def30000584" />
+      <use
+         id="sys30000579"
+         x="160"
+         y="585"
+         width="62.5"
+         height="30"
+         xlink:href="#def30000579" />
+      <use
+         id="sys30000581"
+         x="165"
+         y="635"
+         width="62.5"
+         height="30"
+         xlink:href="#def30000581" />
+      <use
+         id="sys30000564"
+         x="175"
+         y="280"
+         width="62.5"
+         height="30"
+         xlink:href="#def30000564" />
+      <use
+         id="sys30000606"
+         x="185"
+         y="40"
+         width="62.5"
+         height="30"
+         xlink:href="#def30000606" />
+      <use
+         id="sys30000561"
+         x="215"
+         y="330"
+         width="62.5"
+         height="30"
+         xlink:href="#def30000561" />
+      <use
+         id="sys30000607"
+         x="250"
+         y="40"
+         width="62.5"
+         height="30"
+         xlink:href="#def30000607" />
+      <use
+         id="sys30000586"
+         x="250"
+         y="585"
+         width="62.5"
+         height="30"
+         xlink:href="#def30000586" />
+      <use
+         id="sys30000582"
+         x="280"
+         y="530"
+         width="62.5"
+         height="30"
+         xlink:href="#def30000582" />
+      <use
+         id="sys30000609"
+         x="290"
+         y="10"
+         width="62.5"
+         height="30"
+         xlink:href="#def30000609" />
+      <use
+         id="sys30000608"
+         x="290"
+         y="75"
+         width="62.5"
+         height="30"
+         xlink:href="#def30000608" />
+      <use
+         id="sys30000562"
+         x="290"
+         y="330"
+         width="62.5"
+         height="30"
+         xlink:href="#def30000562" />
+      <use
+         id="sys30000553"
+         x="305"
+         y="235"
+         width="62.5"
+         height="30"
+         xlink:href="#def30000553" />
+      <use
+         id="sys30000610"
+         x="310"
+         y="125"
+         width="62.5"
+         height="30"
+         xlink:href="#def30000610" />
+      <use
+         id="sys30000554"
+         x="310"
+         y="175"
+         width="62.5"
+         height="30"
+         xlink:href="#def30000554" />
+      <use
+         id="sys30000585"
+         x="335"
+         y="585"
+         width="62.5"
+         height="30"
+         xlink:href="#def30000585" />
+      <use
+         id="sys30000559"
+         x="355"
+         y="330"
+         width="62.5"
+         height="30"
+         xlink:href="#def30000559" />
+      <use
+         id="sys30000580"
+         x="360"
+         y="530"
+         width="62.5"
+         height="30"
+         xlink:href="#def30000580" />
+      <use
+         id="sys30000578"
+         x="370"
+         y="480"
+         width="62.5"
+         height="30"
+         xlink:href="#def30000578" />
+      <use
+         id="sys30000603"
+         x="370"
+         y="670"
+         width="62.5"
+         height="30"
+         xlink:href="#def30000603" />
+      <use
+         id="sys30000560"
+         x="380"
+         y="410"
+         width="62.5"
+         height="30"
+         xlink:href="#def30000560" />
+      <use
+         id="sys30000602"
+         x="380"
+         y="630"
+         width="62.5"
+         height="30"
+         xlink:href="#def30000602" />
+      <use
+         id="sys30000599"
+         x="405"
+         y="585"
+         width="62.5"
+         height="30"
+         xlink:href="#def30000599" />
+      <use
+         id="sys30000593"
+         x="425"
+         y="330"
+         width="62.5"
+         height="30"
+         xlink:href="#def30000593" />
+      <use
+         id="sys30000552"
+         x="445"
+         y="120"
+         width="62.5"
+         height="30"
+         xlink:href="#def30000552" />
+      <use
+         id="sys30000539"
+         x="450"
+         y="20"
+         width="62.5"
+         height="30"
+         xlink:href="#def30000539" />
+      <use
+         id="sys30000555"
+         x="460"
+         y="175"
+         width="62.5"
+         height="30"
+         xlink:href="#def30000555" />
+      <use
+         id="sys30000600"
+         x="465"
+         y="585"
+         width="62.5"
+         height="30"
+         xlink:href="#def30000600" />
+      <use
+         id="sys30000556"
+         x="470"
+         y="230"
+         width="62.5"
+         height="30"
+         xlink:href="#def30000556" />
+      <use
+         id="sys30000594"
+         x="485"
+         y="290"
+         width="62.5"
+         height="30"
+         xlink:href="#def30000594" />
+      <use
+         id="sys30000595"
+         x="485"
+         y="370"
+         width="62.5"
+         height="30"
+         xlink:href="#def30000595" />
+      <use
+         id="sys30000601"
+         x="495"
+         y="645"
+         width="62.5"
+         height="30"
+         xlink:href="#def30000601" />
+      <use
+         id="sys30000604"
+         x="520"
+         y="720"
+         width="62.5"
+         height="30"
+         xlink:href="#def30000604" />
+      <use
+         id="sys30000542"
+         x="525"
+         y="5"
+         width="62.5"
+         height="30"
+         xlink:href="#def30000542" />
+      <use
+         id="sys30000597"
+         x="530"
+         y="330"
+         width="62.5"
+         height="30"
+         xlink:href="#def30000597" />
+      <use
+         id="sys30000547"
+         x="550"
+         y="585"
+         width="62.5"
+         height="30"
+         xlink:href="#def30000547" />
+      <use
+         id="sys30000558"
+         x="555"
+         y="440"
+         width="62.5"
+         height="30"
+         xlink:href="#def30000558" />
+      <use
+         id="sys30000557"
+         x="570"
+         y="105"
+         width="62.5"
+         height="30"
+         xlink:href="#def30000557" />
+      <use
+         id="sys30000543"
+         x="595"
+         y="5"
+         width="62.5"
+         height="30"
+         xlink:href="#def30000543" />
+      <use
+         id="sys30000540"
+         x="605"
+         y="45"
+         width="62.5"
+         height="30"
+         xlink:href="#def30000540" />
+      <use
+         id="sys30000546"
+         x="615"
+         y="495"
+         width="62.5"
+         height="30"
+         xlink:href="#def30000546" />
+      <use
+         id="sys30000549"
+         x="620"
+         y="560"
+         width="62.5"
+         height="30"
+         xlink:href="#def30000549" />
+      <use
+         id="sys30000537"
+         x="635"
+         y="310"
+         width="62.5"
+         height="30"
+         xlink:href="#def30000537" />
+      <use
+         id="sys30000596"
+         x="640"
+         y="355"
+         width="62.5"
+         height="30"
+         xlink:href="#def30000596" />
+      <use
+         id="sys30000536"
+         x="645"
+         y="195"
+         width="62.5"
+         height="30"
+         xlink:href="#def30000536" />
+      <use
+         id="sys30000538"
+         x="655"
+         y="150"
+         width="62.5"
+         height="30"
+         xlink:href="#def30000538" />
+      <use
+         id="sys30000532"
+         x="665"
+         y="270"
+         width="62.5"
+         height="30"
+         xlink:href="#def30000532" />
+      <use
+         id="sys30000548"
+         x="685"
+         y="495"
+         width="62.5"
+         height="30"
+         xlink:href="#def30000548" />
+      <use
+         id="sys30000551"
+         x="690"
+         y="560"
+         width="62.5"
+         height="30"
+         xlink:href="#def30000551" />
+      <use
+         id="sys30000598"
+         x="705"
+         y="325"
+         width="62.5"
+         height="30"
+         xlink:href="#def30000598" />
+      <use
+         id="sys30000544"
+         x="710"
+         y="55"
+         width="62.5"
+         height="30"
+         xlink:href="#def30000544" />
+      <use
+         id="sys30000534"
+         x="710"
+         y="160"
+         width="62.5"
+         height="30"
+         xlink:href="#def30000534" />
+      <use
+         id="sys30000531"
+         x="715"
+         y="240"
+         width="62.5"
+         height="30"
+         xlink:href="#def30000531" />
+      <use
+         id="sys30000533"
+         x="730"
+         y="290"
+         width="62.5"
+         height="30"
+         xlink:href="#def30000533" />
+      <use
+         id="sys30000550"
+         x="750"
+         y="525"
+         width="62.5"
+         height="30"
+         xlink:href="#def30000550" />
+      <use
+         id="sys30000529"
+         x="775"
+         y="105"
+         width="62.5"
+         height="30"
+         xlink:href="#def30000529" />
+      <use
+         id="sys30000535"
+         x="775"
+         y="155"
+         width="62.5"
+         height="30"
+         xlink:href="#def30000535" />
+      <use
+         id="sys30000588"
+         x="795"
+         y="425"
+         width="62.5"
+         height="30"
+         xlink:href="#def30000588" />
+      <use
+         id="sys30000530"
+         x="820"
+         y="200"
+         width="62.5"
+         height="30"
+         xlink:href="#def30000530" />
+      <use
+         id="sys30000545"
+         x="835"
+         y="50"
+         width="62.5"
+         height="30"
+         xlink:href="#def30000545" />
+      <use
+         id="sys30000589"
+         x="860"
+         y="395"
+         width="62.5"
+         height="30"
+         xlink:href="#def30000589" />
+      <use
+         id="sys30000587"
+         x="860"
+         y="455"
+         width="62.5"
+         height="30"
+         xlink:href="#def30000587" />
+      <use
+         id="sys30000592"
+         x="910"
+         y="350"
+         width="62.5"
+         height="30"
+         xlink:href="#def30000592" />
+      <use
+         id="sys30000541"
+         x="935"
+         y="35"
+         width="62.5"
+         height="30"
+         xlink:href="#def30000541" />
+      <use
+         id="sys30000591"
+         x="935"
+         y="395"
+         width="62.5"
+         height="30"
+         xlink:href="#def30000591" />
+      <use
+         id="sys30000590"
+         x="935"
+         y="455"
+         width="62.5"
+         height="30"
+         xlink:href="#def30000590" />
+      <use
+         id="sys30000664"
+         x="0"
+         y="260"
+         width="62.5"
+         height="30"
+         xlink:href="#def30000664" />
+      <use
+         id="sys30000663"
+         x="0"
+         y="365"
+         width="62.5"
+         height="30"
+         xlink:href="#def30000663" />
+      <use
+         id="sys30000730"
+         x="75"
+         y="225"
+         width="62.5"
+         height="30"
+         xlink:href="#def30000730" />
+      <use
+         id="sys30000679"
+         x="95"
+         y="290"
+         width="62.5"
+         height="30"
+         xlink:href="#def30000679" />
+      <use
+         id="sys30000448"
+         x="170"
+         y="700"
+         width="62.5"
+         height="30"
+         xlink:href="#def30000448" />
+      <use
+         id="sys30000680"
+         x="225"
+         y="150"
+         width="62.5"
+         height="30"
+         xlink:href="#def30000680" />
+      <use
+         id="sys30000681"
+         x="225"
+         y="210"
+         width="62.5"
+         height="30"
+         xlink:href="#def30000681" />
+      <use
+         id="sys30000439"
+         x="360"
+         y="720"
+         width="62.5"
+         height="30"
+         xlink:href="#def30000439" />
+      <use
+         id="sys30000774"
+         x="445"
+         y="80"
+         width="62.5"
+         height="30"
+         xlink:href="#def30000774" />
+      <use
+         id="sys30000773"
+         x="530"
+         y="40"
+         width="62.5"
+         height="30"
+         xlink:href="#def30000773" />
+      <use
+         id="sys30000763"
+         x="670"
+         y="10"
+         width="62.5"
+         height="30"
+         xlink:href="#def30000763" />
+      <use
+         id="sys30000455"
+         x="750"
+         y="10"
+         width="62.5"
+         height="30"
+         xlink:href="#def30000455" />
+      <use
+         id="sys30000716"
+         x="775"
+         y="375"
+         width="62.5"
+         height="30"
+         xlink:href="#def30000716" />
+    </g>
+    <g
+       id="highlights" />
+    <g
+       id="notes" />
+    <g
+       id="standings" />
+  </g>
+  <g
+     id="controls"
+     style="display:none"
+     transform="translate(-3.5,-503)">
+    <a
+       xlink:title="Zoom In"
+       id="a212">
+      <image
+         id="zoom_in"
+         x="5"
+         y="5"
+         width="16"
+         height="16"
+         xlink:href="http://i.dotlan.net/images/icons/magnifier_zoom_in.png" />
+    </a>
+    <a
+       xlink:title="Zoom Out"
+       id="a215">
+      <image
+         id="zoom_out"
+         x="5"
+         y="23"
+         width="16"
+         height="16"
+         xlink:href="http://i.dotlan.net/images/icons/magnifier_zoom_out.png" />
+    </a>
+    <a
+       xlink:title="Enable Mousewheel Support"
+       id="a218">
+      <image
+         id="wheel_on"
+         x="5"
+         y="42"
+         width="16"
+         height="16"
+         xlink:href="http://i.dotlan.net/images/icons/mouse_add.png" />
+    </a>
+    <a
+       xlink:title="Disable Mousewheel Support"
+       id="a221">
+      <image
+         id="wheel_off"
+         x="5"
+         y="42"
+         width="16"
+         height="16"
+         xlink:href="http://i.dotlan.net/images/icons/mouse_delete.png"
+         style="display:none" />
+    </a>
+  </g>
+  <script
+     type="text/javascript"
+     xlink:href="http://s.dotlan.net/lib/dotSvg.js?1427966596"
+     id="script224" />
+  <script
+     type="text/javascript"
+     id="script226">
+
+function init(E) {
+	SVGMap.init(E);
+}
+
+</script>
+</svg>
