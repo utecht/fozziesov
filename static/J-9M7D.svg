@@ -24,7 +24,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -451,42 +451,6 @@
            id="rect84"
            style="fill:none;stroke:#000000;stroke-width:1" />
       </symbol>
-      <radialGradient
-         id="conBg">
-        <stop
-           offset="50%"
-           stop-color="#FFA0FF"
-           id="stop87" />
-        <stop
-           offset="95%"
-           stop-color="#FFA0FF"
-           stop-opacity="0"
-           id="stop89" />
-      </radialGradient>
-      <radialGradient
-         id="incBg">
-        <stop
-           offset="50%"
-           stop-color="#AFCE00"
-           id="stop92" />
-        <stop
-           offset="100%"
-           stop-color="#AFCE00"
-           stop-opacity="0"
-           id="stop94" />
-      </radialGradient>
-      <radialGradient
-         id="incStBg">
-        <stop
-           offset="50%"
-           stop-color="#808000"
-           id="stop97" />
-        <stop
-           offset="100%"
-           stop-color="#808000"
-           stop-opacity="0"
-           id="stop99" />
-      </radialGradient>
     </defs>
     <text
        x="10"
@@ -1287,17 +1251,4 @@
          style="display:none" />
     </a>
   </g>
-  <script
-     type="text/javascript"
-     xlink:href="http://s.dotlan.net/lib/dotSvg.js?1427966596"
-     id="script224" />
-  <script
-     type="text/javascript"
-     id="script226">
-
-function init(E) {
-	SVGMap.init(E);
-}
-
-</script>
 </svg>
