@@ -4,8 +4,39 @@ import json
 
 app = Flask(__name__)
 
-@app.route('/test', methods=['POST'])
+@app.route('/test', methods=['POST', 'GET'])
 def test():
+    op_id = request.cookies.get('stratop')
+    if not op_id:
+        return json.dumps({'error': 'User not logged in!'})
+
+    op = session.query(Stratop).filter_by(id=op_id).first()
+
+    battles = []
+    for b in session.query(Battle).filter_by(stratop=op.id):
+        battle = {'sysname': b.system_name,
+                  'structure': b.structure_name,
+                  'nodes': [1 for i in session.query(ControlNode).filter_by(battle=b.id)]}
+
+        battles.append(battle)
+
+    corpstatus = []
+    for cs in session.query(CorpStatus).filter_by(stratop=op.id):
+        corpstatus.append({'name': cs.corp,
+                           'num': cs.number})
+
+    systems = []
+    for sys in session.query(System).filter_by(stratop=op.id):
+        systems.append({'name': sys.name})
+                   
+                        
+        
+
+
+    r = {'battles': battles,
+         'status': {'corps': corpstatus},
+         'systems': systems}
+    
     ret = {
         'battles': [{
             'sysname': 'GE-8JV',
@@ -35,7 +66,7 @@ def test():
                 }
         ]}
 
-    return json.dumps(ret)
+    return json.dumps(r)
 
 @app.route('/setuser')
 def setuser():
