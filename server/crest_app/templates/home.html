@@ -13,9 +13,10 @@
             <img class="media-object" src='{{ user.get_portrait_url }}' alt='Portrait' />
         </div>
         <div class="media-body">
-            <p>I can see your CharacterID from here...</p>
-            <p>Corp: {{authed_crest.corp}}</p>
-            <p>Alliance: {{authed_crest.alliance}}</p>
+            <span><img class="media-object" src='https://image.eveonline.com/Corporation/{{authed_crest.corpid}}_50.png' alt='Portrait' />Corp: {{authed_crest.corp}}</span>
+            {% if authed_crest.alliance %}
+            <span><img class="media-object" src='https://image.eveonline.com/Alliance/{{authed_crest.allianceid}}_50.png' alt='Portrait' />Alliance: {{authed_crest.alliance}}</span>
+            {% endif %}
         </div>
     </div>
 {% endblock %}

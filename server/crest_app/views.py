@@ -29,7 +29,9 @@ class HomeView(TemplateView):
         a = tree.xpath('/eveapi/result/alliance')
         aid = tree.xpath('/eveapi/result/allianceID')
         corp = ''
-        alliance = ''
+        alliance = None
+        corp_id = ''
+        alliance_id = None
         if len(c) > 0:
             corp = c[0].text 
             corp_id = cid[0].text
@@ -39,7 +41,9 @@ class HomeView(TemplateView):
 
         return {
             'corp':corp,
-            'alliance':alliance
+            'alliance':alliance,
+            'corpid':corp_id,
+            'allianceid':alliance_id
         }
 
     def get_context_data(self, **kwargs):
