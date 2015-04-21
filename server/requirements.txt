@@ -1,3 +1,5 @@
-django
-pycrest
-python-social-auth
+Django==1.8
+pycrest==0.0.5
+python-dateutil==2.4.2
+python-social-auth==0.2.7
+requests==2.6.0

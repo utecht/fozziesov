@@ -6,7 +6,8 @@ from django.views.generic import TemplateView
 from django.conf import settings
 
 import pycrest
-
+import requests
+from lxml import etree
 
 def login(request):
     return django_login(request, template_name='login.html')
@@ -35,8 +36,20 @@ class HomeView(TemplateView):
         authed_crest()
         print(authed_crest.whoami())
         character_id = authed_crest.whoami()['CharacterID']
+        r = requests.get('https://api.eveonline.com/eve/CharacterInfo.xml.aspx?characterID={}'.format(character_id))
+        tree = etree.fromstring(r.content)
+        c = tree.xpath('/eveapi/result/corporation')
+        cid = tree.xpath('/eveapi/result/corporationID')
+        a = tree.xpath('/eveapi/result/alliance')
+        aid = tree.xpath('/eveapi/result/allianceID')
         corp = ''
         alliance = ''
+        if len(c) > 0:
+            corp = c[0].text 
+            corp_id = cid[0].text
+        if len(a) > 0:
+            alliance = a[0].text
+            alliance_id = aid[0].text
 
         return {
             'corp':corp,
