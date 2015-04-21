@@ -58,7 +58,7 @@ def handle_one_const(region, const):
     filename = "dotlan/{}.svg".format(to_filename(region))
     tree = etree.parse(open(filename, 'r'))
 
-    to_delete = []
+    to_delete = set()
     for element in tree.iter():
         # all symbols, test that they contain an id
         # all lines, test that they contain an id
@@ -67,12 +67,12 @@ def handle_one_const(region, const):
 
         # delete these elements entirely
         if el_name in ['script']:
-            to_delete.append(element)
+            to_delete.add(element)
 
         # delete groups based on element ID
         if el_name == 'g':
             if id in ['legend', 'standings', 'notes', 'highlights', 'controls', 'glow']:
-                to_delete.append(element)
+                to_delete.add(element)
 
         # delete unless they match the current system id
         if el_name in ['symbol', 'line', 'use']:
@@ -80,7 +80,7 @@ def handle_one_const(region, const):
                 # print(id)
                 pass
             else:
-                to_delete.append(element)
+                to_delete.add(element)
 
         # remove the label text, but keep the labels
         # also remove the debug text
@@ -88,14 +88,12 @@ def handle_one_const(region, const):
             if id and id.startswith('txt'):
                 element.text = ""
             if id == 'debug':
-                to_delete.append(element)
+                to_delete.add(element)
 
         # adjust the style
         if el_name == 'rect':
             if id and id.startswith('rect'):
                 element.set('style', 'fill: #EFEAE0;')
-            if id and id.startswith('ice'):
-                to_delete.append(element)
 
 
         # attempt to delete the station services box
@@ -103,8 +101,10 @@ def handle_one_const(region, const):
             class_ = element.get('class')
             if class_ and (class_.startswith('o')
                            or class_.startswith('v')):
-                to_delete.append(element)
+                to_delete.add(element)
 
+            if id and id.startswith('ice'):
+                to_delete.add(element)
 
     for el in to_delete:
         el.getparent().remove(el)
