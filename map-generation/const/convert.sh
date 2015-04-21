@@ -1,3 +1,5 @@
+#!/usr/bin/bash
+
 for f in *.svg; do
-    inkscape --verb=FitCanvasToDrawing --verb=FileSave --verb=FileClose --verb=FileQuit $f
+    fit_canvas_to_drawing.sh $f
 done
