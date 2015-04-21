@@ -43,7 +43,7 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     'django.contrib.humanize',
     'social.apps.django_app.default',
-    'example.crest_app',
+    'crest_app',
 )
 
 MIDDLEWARE_CLASSES = (
