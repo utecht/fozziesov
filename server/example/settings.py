@@ -42,8 +42,10 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django.contrib.humanize',
+    'django.contrib.admin',
     'social.apps.django_app.default',
     'crest_app',
+    'main',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -67,6 +69,7 @@ TEMPLATE_CONTEXT_PROCESSORS = DEFAULT_SETTINGS.TEMPLATE_CONTEXT_PROCESSORS + (
 
 AUTHENTICATION_BACKENDS = (
     'social.backends.eveonline.EVEOnlineOAuth2',
+    'django.contrib.auth.backends.ModelBackend',
 )
 
 AUTH_USER_MODEL = 'crest_app.EveUser'
