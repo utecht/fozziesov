@@ -14,4 +14,6 @@ urlpatterns = patterns(
     url(r'^logout/$', 'crest_app.views.logout', name='user_logout'),
     url('', include('social.apps.django_app.urls', namespace='social')),
     url(r'^test/$', 'main.views.test', name='main_test'),
+    url(r'^stratop/(?P<stratop_id>[^/]+)/?$', 'main.views.stratop_state', name='main_stratop_state'),
+
 )
