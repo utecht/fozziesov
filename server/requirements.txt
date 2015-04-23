@@ -1,0 +1,5 @@
+Django==1.8
+python-dateutil==2.4.2
+lxml==3.4.2
+python-social-auth==0.2.7
+requests==2.6.0
