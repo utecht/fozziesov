@@ -1,0 +1,801 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="svgdoc"
+   width="371"
+   height="391.75491"
+   viewBox="0 0 371 391.75491"
+   onload="init(evt)"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="RFY-QB.svg">
+  <metadata
+     id="metadata154">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs152" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="640"
+     inkscape:window-height="480"
+     id="namedview150"
+     showgrid="false"
+     inkscape:zoom="0.30729167"
+     inkscape:cx="408.5"
+     inkscape:cy="50.754901"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svgdoc" />
+  <style
+     type="text/css"
+     id="style3">
+
+/* jumps */
+.j	{ stroke: #000000; stroke-width: 1; }
+.jc	{ stroke: #FF0000; stroke-width: 1; }
+.jr	{ stroke: #800080; stroke-width: 1; }
+.jx	{ stroke: #000000; stroke-width: 3; }
+.jxc	{ stroke: #FF0000; stroke-width: 3; }
+.jxr	{ stroke: #800080; stroke-width: 3; }
+.jb	{ stroke: #0000FF; stroke-width: 3; fill: none; }
+
+/* external system */
+.eh	{ stroke: #00B000; stroke-width: 1; fill: #CCCCCC; }
+.el	{ stroke: #F00000; stroke-width: 1; stroke-dasharray: 8, 4; fill: #CCCCCC; }
+.e	{ stroke: #000000; stroke-width: 1; fill: #CCCCCC; }
+.exh	{ stroke: #00B000; stroke-width: 2; fill: #CCCCCC; }
+.exl	{ stroke: #F00000; stroke-width: 2; stroke-dasharray: 8, 3; fill: #CCCCCC; }
+.ex	{ stroke: #000000; stroke-width: 2; fill: #CCCCCC; }
+
+/* external system text */ 
+.es	{ font-size: 9px; font-family: Arial, Helvetica, sans-serif; fill: #000000; }
+.er	{ font-weight: bold; font-size: 7px; font-family: verdana, Arial, sans-serif; fill: #000000; }
+
+/* system */
+.sh	{ stroke: #00B000; stroke-width: 1; }
+.sl	{ stroke: #F00000; stroke-width: 1; stroke-dasharray: 8, 3 }
+.s	{ stroke: #000000; stroke-width: 1; }
+.sxh	{ stroke: #00B000; stroke-width: 2.5; }
+.sxl	{ stroke: #F00000; stroke-width: 2.5; stroke-dasharray: 8, 3; }
+.sx	{ stroke: #000000; stroke-width: 2.5; }
+.scl	{ stroke: transparent; stroke-width: 2; fill: transparent; }
+
+/* system text */
+.ss	{ font-family: Arial, Helvetica, sans-serif; font-size: 9px; fill: #000000; }
+.st	{ font-weight: bold; font-size: 7px; font-family: verdana, Arial, sans-serif; fill: #000000; }
+.so	{ fill: #ff0000; }
+.i	{ stroke: #0080FF; stroke-width: 1; fill: none; }
+
+/* station */
+.o	{ fill: #ffffff; }
+.oc	{ fill: #0000FF; }
+.oa	{ fill: #FFDC00; }
+.og	{ fill: #00FF00; }
+.om	{ fill: #FF0000; }
+.o1	{ fill: #ffffff; stroke-width: 0.5; stroke: #000000; }
+.o2	{ fill: #ffffff; stroke-width: 0.5; stroke: #000000; }
+.oo	{ fill: none; stroke: #000000; stroke-width: 1; }
+
+/* station services */
+.v1	{ fill: #FF0000; }
+.v2	{ fill: #00FF00; }
+.v3	{ fill: #FFDC00; }
+.v4	{ fill: #0000FF; }
+
+/* legend */
+.lb	{ stroke-width: 1; stroke: #000000; fill: #ffffff; }
+.lbt	{ stroke-width: 1; stroke: #000000; fill: #ffffff; }
+.lt	{ fill: #000000; font-family: Arial, Helvetica, sans-serif; font-weight: bold; font-size: 12px; }
+.lc	{ fill: #000000; font-family: Arial, Helvetica, sans-serif; font-size: 11px; }
+.l	{ fill: #000000; font-family: Arial, Helvetica, sans-serif; font-size: 10px; }
+
+/* highlight */
+.h	{ fill: none; stroke-width: 3; stroke: #000000; }
+.hw	{ fill: none; stroke-width: 2; stroke: #00AA00; }
+.hl	{ fill: none; stroke-width: 2; stroke: #F00000; }
+.hg	{ fill: none; stroke-width: 2; stroke: #00B000; }
+
+/* incursion */
+.inc	{ fill: url(#incBg); }
+.incs	{ fill: url(#incStBg); }
+
+/* contested */
+.con	{ fill: url(#conBg); }
+
+</style>
+  <g
+     id="map"
+     transform="translate(-103.5,-43)">
+    <defs
+       id="defs6">
+      <symbol
+         id="def30002943">
+        <g
+           id="g9">
+          <rect
+             id="rect30002943"
+             x="4"
+             y="3.5"
+             rx="11"
+             ry="11"
+             width="50"
+             height="22"
+             class="s"
+             style="fill:#efeae0;stroke:#000000;stroke-width:1" />
+          <text
+             x="28"
+             y="14"
+             class="ss"
+             id="text12"
+             style="font-size:9px;font-family:Arial, Helvetica, sans-serif;text-anchor:middle;fill:#000000">X3-PBC</text>
+          <text
+             id="txt30002943"
+             x="28"
+             y="21.700001"
+             class="st so"
+             style="font-weight:bold;font-size:7px;font-family:verdana, Arial, sans-serif;text-anchor:middle;fill:#ff0000" />
+        </g>
+      </symbol>
+      <symbol
+         id="def30002942">
+        <g
+           id="g16">
+          <rect
+             id="rect30002942"
+             x="4"
+             y="3.5"
+             rx="11"
+             ry="11"
+             width="50"
+             height="22"
+             class="s"
+             style="fill:#efeae0;stroke:#000000;stroke-width:1" />
+          <text
+             x="28"
+             y="14"
+             class="ss"
+             id="text19"
+             style="font-size:9px;font-family:Arial, Helvetica, sans-serif;text-anchor:middle;fill:#000000">J1AU-9</text>
+          <text
+             id="txt30002942"
+             x="28"
+             y="21.700001"
+             class="st so"
+             style="font-weight:bold;font-size:7px;font-family:verdana, Arial, sans-serif;text-anchor:middle;fill:#ff0000" />
+        </g>
+      </symbol>
+      <symbol
+         id="def30002947">
+        <g
+           id="g23">
+          <rect
+             id="rect30002947"
+             x="4"
+             y="3.5"
+             rx="11"
+             ry="11"
+             width="50"
+             height="22"
+             class="s"
+             style="fill:#efeae0;stroke:#000000;stroke-width:1" />
+          <text
+             x="28"
+             y="14"
+             class="ss"
+             id="text26"
+             style="font-size:9px;font-family:Arial, Helvetica, sans-serif;text-anchor:middle;fill:#000000">GY5-26</text>
+          <text
+             id="txt30002947"
+             x="28"
+             y="21.700001"
+             class="st so"
+             style="font-weight:bold;font-size:7px;font-family:verdana, Arial, sans-serif;text-anchor:middle;fill:#ff0000" />
+        </g>
+      </symbol>
+      <symbol
+         id="def30002940">
+        <g
+           id="g30">
+          <rect
+             id="rect30002940"
+             x="4"
+             y="3.5"
+             rx="11"
+             ry="11"
+             width="50"
+             height="22"
+             class="s"
+             style="fill:#efeae0;stroke:#000000;stroke-width:1" />
+          <text
+             x="28"
+             y="14"
+             class="ss"
+             id="text33"
+             style="font-size:9px;font-family:Arial, Helvetica, sans-serif;text-anchor:middle;fill:#000000">MZ1E-P</text>
+          <text
+             id="txt30002940"
+             x="28"
+             y="21.700001"
+             class="st so"
+             style="font-weight:bold;font-size:7px;font-family:verdana, Arial, sans-serif;text-anchor:middle;fill:#ff0000" />
+        </g>
+      </symbol>
+      <symbol
+         id="def30002948">
+        <g
+           id="g37">
+          <rect
+             id="rect30002948"
+             x="4"
+             y="3.5"
+             rx="11"
+             ry="11"
+             width="50"
+             height="22"
+             class="s"
+             style="fill:#efeae0;stroke:#000000;stroke-width:1" />
+          <text
+             x="28"
+             y="14"
+             class="ss"
+             id="text40"
+             style="font-size:9px;font-family:Arial, Helvetica, sans-serif;text-anchor:middle;fill:#000000">VPLL-N</text>
+          <text
+             id="txt30002948"
+             x="28"
+             y="21.700001"
+             class="st so"
+             style="font-weight:bold;font-size:7px;font-family:verdana, Arial, sans-serif;text-anchor:middle;fill:#ff0000" />
+        </g>
+      </symbol>
+      <symbol
+         id="def30002945">
+        <g
+           id="g44">
+          <rect
+             id="rect30002945"
+             x="4"
+             y="3.5"
+             rx="11"
+             ry="11"
+             width="50"
+             height="22"
+             class="s"
+             style="fill:#efeae0;stroke:#000000;stroke-width:1" />
+          <text
+             x="28"
+             y="14"
+             class="ss"
+             id="text47"
+             style="font-size:9px;font-family:Arial, Helvetica, sans-serif;text-anchor:middle;fill:#000000">N2IS-B</text>
+          <text
+             id="txt30002945"
+             x="28"
+             y="21.700001"
+             class="st so"
+             style="font-weight:bold;font-size:7px;font-family:verdana, Arial, sans-serif;text-anchor:middle;fill:#ff0000" />
+        </g>
+      </symbol>
+      <symbol
+         id="def30002946">
+        <g
+           id="g51">
+          <rect
+             id="rect30002946"
+             x="4"
+             y="3.5"
+             rx="11"
+             ry="11"
+             width="50"
+             height="22"
+             class="s"
+             style="fill:#efeae0;stroke:#000000;stroke-width:1" />
+          <text
+             x="28"
+             y="14"
+             class="ss"
+             id="text54"
+             style="font-size:9px;font-family:Arial, Helvetica, sans-serif;text-anchor:middle;fill:#000000">XCBK-X</text>
+          <text
+             id="txt30002946"
+             x="28"
+             y="21.700001"
+             class="st so"
+             style="font-weight:bold;font-size:7px;font-family:verdana, Arial, sans-serif;text-anchor:middle;fill:#ff0000" />
+        </g>
+      </symbol>
+      <symbol
+         id="def30002938">
+        <g
+           id="g58">
+          <rect
+             id="rect30002938"
+             x="4"
+             y="3.5"
+             rx="11"
+             ry="11"
+             width="50"
+             height="22"
+             class="s"
+             style="fill:#efeae0;stroke:#000000;stroke-width:1" />
+          <text
+             x="28"
+             y="14"
+             class="ss"
+             id="text61"
+             style="font-size:9px;font-family:Arial, Helvetica, sans-serif;text-anchor:middle;fill:#000000">3T7-M8</text>
+          <text
+             id="txt30002938"
+             x="28"
+             y="21.700001"
+             class="st so"
+             style="font-weight:bold;font-size:7px;font-family:verdana, Arial, sans-serif;text-anchor:middle;fill:#ff0000" />
+        </g>
+      </symbol>
+      <symbol
+         id="def30002944">
+        <g
+           id="g65">
+          <rect
+             id="rect30002944"
+             x="4"
+             y="3.5"
+             rx="11"
+             ry="11"
+             width="50"
+             height="22"
+             class="s"
+             style="fill:#efeae0;stroke:#000000;stroke-width:1" />
+          <text
+             x="28"
+             y="14"
+             class="ss"
+             id="text68"
+             style="font-size:9px;font-family:Arial, Helvetica, sans-serif;text-anchor:middle;fill:#000000">4N-BUI</text>
+          <text
+             id="txt30002944"
+             x="28"
+             y="21.700001"
+             class="st so"
+             style="font-weight:bold;font-size:7px;font-family:verdana, Arial, sans-serif;text-anchor:middle;fill:#ff0000" />
+        </g>
+      </symbol>
+      <symbol
+         id="def30002939">
+        <g
+           id="g72">
+          <rect
+             id="rect30002939"
+             x="4"
+             y="3.5"
+             rx="11"
+             ry="11"
+             width="50"
+             height="22"
+             class="s"
+             style="fill:#efeae0;stroke:#000000;stroke-width:1" />
+          <text
+             x="28"
+             y="14"
+             class="ss"
+             id="text75"
+             style="font-size:9px;font-family:Arial, Helvetica, sans-serif;text-anchor:middle;fill:#000000">WUZ-WM</text>
+          <text
+             id="txt30002939"
+             x="28"
+             y="21.700001"
+             class="st so"
+             style="font-weight:bold;font-size:7px;font-family:verdana, Arial, sans-serif;text-anchor:middle;fill:#ff0000" />
+        </g>
+      </symbol>
+      <symbol
+         id="def30002949">
+        <g
+           id="g79">
+          <rect
+             id="rect30002949"
+             x="4"
+             y="3.5"
+             rx="11"
+             ry="11"
+             width="50"
+             height="22"
+             class="s"
+             style="fill:#efeae0;stroke:#000000;stroke-width:1" />
+          <text
+             x="28"
+             y="14"
+             class="ss"
+             id="text82"
+             style="font-size:9px;font-family:Arial, Helvetica, sans-serif;text-anchor:middle;fill:#000000">9CK-KZ</text>
+          <text
+             id="txt30002949"
+             x="28"
+             y="21.700001"
+             class="st so"
+             style="font-weight:bold;font-size:7px;font-family:verdana, Arial, sans-serif;text-anchor:middle;fill:#ff0000" />
+        </g>
+      </symbol>
+      <symbol
+         id="def30002950">
+        <g
+           id="g86">
+          <rect
+             id="rect30002950"
+             x="4"
+             y="3.5"
+             rx="11"
+             ry="11"
+             width="50"
+             height="22"
+             class="s"
+             style="fill:#efeae0;stroke:#000000;stroke-width:1" />
+          <text
+             x="28"
+             y="14"
+             class="ss"
+             id="text89"
+             style="font-size:9px;font-family:Arial, Helvetica, sans-serif;text-anchor:middle;fill:#000000">5S-KXA</text>
+          <text
+             id="txt30002950"
+             x="28"
+             y="21.700001"
+             class="st so"
+             style="font-weight:bold;font-size:7px;font-family:verdana, Arial, sans-serif;text-anchor:middle;fill:#ff0000" />
+        </g>
+      </symbol>
+      <symbol
+         id="def30002941">
+        <g
+           id="g93">
+          <rect
+             id="rect30002941"
+             x="4"
+             y="3.5"
+             rx="11"
+             ry="11"
+             width="50"
+             height="22"
+             class="s"
+             style="fill:#efeae0;stroke:#000000;stroke-width:1" />
+          <text
+             x="28"
+             y="14"
+             class="ss"
+             id="text96"
+             style="font-size:9px;font-family:Arial, Helvetica, sans-serif;text-anchor:middle;fill:#000000">43B-O1</text>
+          <text
+             id="txt30002941"
+             x="28"
+             y="21.700001"
+             class="st so"
+             style="font-weight:bold;font-size:7px;font-family:verdana, Arial, sans-serif;text-anchor:middle;fill:#ff0000" />
+        </g>
+      </symbol>
+      <radialGradient
+         id="conBg">
+        <stop
+           offset="50%"
+           stop-color="#FFA0FF"
+           id="stop100" />
+        <stop
+           offset="95%"
+           stop-color="#FFA0FF"
+           stop-opacity="0"
+           id="stop102" />
+      </radialGradient>
+      <radialGradient
+         id="incBg">
+        <stop
+           offset="50%"
+           stop-color="#AFCE00"
+           id="stop105" />
+        <stop
+           offset="100%"
+           stop-color="#AFCE00"
+           stop-opacity="0"
+           id="stop107" />
+      </radialGradient>
+      <radialGradient
+         id="incStBg">
+        <stop
+           offset="50%"
+           stop-color="#808000"
+           id="stop110" />
+        <stop
+           offset="100%"
+           stop-color="#808000"
+           stop-opacity="0"
+           id="stop112" />
+      </radialGradient>
+    </defs>
+    <g
+       id="jumps">
+      <line
+         id="j-30002938-30002936"
+         x1="243.5"
+         y1="434.5"
+         x2="323.5"
+         y2="299.5"
+         class="jc"
+         style="stroke:#ff0000;stroke-width:1" />
+      <line
+         id="j-30002939-30002938"
+         x1="323.5"
+         y1="299.5"
+         x2="363.5"
+         y2="244.5"
+         class="j"
+         style="stroke:#000000;stroke-width:1" />
+      <line
+         id="j-30002940-30002938"
+         x1="323.5"
+         y1="299.5"
+         x2="258.5"
+         y2="299.5"
+         class="j"
+         style="stroke:#000000;stroke-width:1" />
+      <line
+         id="j-30002945-30002938"
+         x1="323.5"
+         y1="299.5"
+         x2="273.5"
+         y2="244.5"
+         class="j"
+         style="stroke:#000000;stroke-width:1" />
+      <line
+         id="j-30002941-30002939"
+         x1="363.5"
+         y1="244.5"
+         x2="448.5"
+         y2="194.5"
+         class="j"
+         style="stroke:#000000;stroke-width:1" />
+      <line
+         id="j-30002944-30002939"
+         x1="363.5"
+         y1="244.5"
+         x2="363.5"
+         y2="194.5"
+         class="j"
+         style="stroke:#000000;stroke-width:1" />
+      <line
+         id="j-30002942-30002940"
+         x1="258.5"
+         y1="299.5"
+         x2="193.5"
+         y2="299.5"
+         class="j"
+         style="stroke:#000000;stroke-width:1" />
+      <line
+         id="j-30002950-30002941"
+         x1="448.5"
+         y1="194.5"
+         x2="448.5"
+         y2="144.5"
+         class="j"
+         style="stroke:#000000;stroke-width:1" />
+      <line
+         id="j-30002943-30002942"
+         x1="193.5"
+         y1="299.5"
+         x2="128.5"
+         y2="299.5"
+         class="j"
+         style="stroke:#000000;stroke-width:1" />
+      <line
+         id="j-30002951-30002943"
+         x1="128.5"
+         y1="299.5"
+         x2="128.5"
+         y2="224.5"
+         class="jc"
+         style="stroke:#ff0000;stroke-width:1" />
+      <line
+         id="j-30002946-30002944"
+         x1="363.5"
+         y1="194.5"
+         x2="323.5"
+         y2="54.5"
+         class="j"
+         style="stroke:#000000;stroke-width:1" />
+      <line
+         id="j-30002947-30002944"
+         x1="363.5"
+         y1="194.5"
+         x2="243.5"
+         y2="104.5"
+         class="j"
+         style="stroke:#000000;stroke-width:1" />
+      <line
+         id="j-30002948-30002944"
+         x1="363.5"
+         y1="194.5"
+         x2="273.5"
+         y2="194.5"
+         class="j"
+         style="stroke:#000000;stroke-width:1" />
+      <line
+         id="j-30002949-30002944"
+         x1="363.5"
+         y1="194.5"
+         x2="398.5"
+         y2="104.5"
+         class="j"
+         style="stroke:#000000;stroke-width:1" />
+      <line
+         id="j-30002948-30002945"
+         x1="273.5"
+         y1="244.5"
+         x2="273.5"
+         y2="194.5"
+         class="j"
+         style="stroke:#000000;stroke-width:1" />
+      <line
+         id="j-30002947-30002946"
+         x1="323.5"
+         y1="54.5"
+         x2="243.5"
+         y2="104.5"
+         class="j"
+         style="stroke:#000000;stroke-width:1" />
+      <line
+         id="j-30002948-30002946"
+         x1="323.5"
+         y1="54.5"
+         x2="273.5"
+         y2="194.5"
+         class="j"
+         style="stroke:#000000;stroke-width:1" />
+      <line
+         id="j-30002949-30002946"
+         x1="323.5"
+         y1="54.5"
+         x2="398.5"
+         y2="104.5"
+         class="j"
+         style="stroke:#000000;stroke-width:1" />
+      <line
+         id="j-30002948-30002947"
+         x1="243.5"
+         y1="104.5"
+         x2="273.5"
+         y2="194.5"
+         class="j"
+         style="stroke:#000000;stroke-width:1" />
+      <line
+         id="j-30002949-30002947"
+         x1="243.5"
+         y1="104.5"
+         x2="398.5"
+         y2="104.5"
+         class="j"
+         style="stroke:#000000;stroke-width:1" />
+      <line
+         id="j-30002949-30002948"
+         x1="273.5"
+         y1="194.5"
+         x2="398.5"
+         y2="104.5"
+         class="j"
+         style="stroke:#000000;stroke-width:1" />
+    </g>
+    <g
+       id="sysuse">
+      <use
+         id="sys30002943"
+         x="100"
+         y="285"
+         width="62.5"
+         height="30"
+         xlink:href="#def30002943" />
+      <use
+         id="sys30002942"
+         x="165"
+         y="285"
+         width="62.5"
+         height="30"
+         xlink:href="#def30002942" />
+      <use
+         id="sys30002947"
+         x="215"
+         y="90"
+         width="62.5"
+         height="30"
+         xlink:href="#def30002947" />
+      <use
+         id="sys30002940"
+         x="230"
+         y="285"
+         width="62.5"
+         height="30"
+         xlink:href="#def30002940" />
+      <use
+         id="sys30002948"
+         x="245"
+         y="180"
+         width="62.5"
+         height="30"
+         xlink:href="#def30002948" />
+      <use
+         id="sys30002945"
+         x="245"
+         y="230"
+         width="62.5"
+         height="30"
+         xlink:href="#def30002945" />
+      <use
+         id="sys30002946"
+         x="295"
+         y="40"
+         width="62.5"
+         height="30"
+         xlink:href="#def30002946" />
+      <use
+         id="sys30002938"
+         x="295"
+         y="285"
+         width="62.5"
+         height="30"
+         xlink:href="#def30002938" />
+      <use
+         id="sys30002944"
+         x="335"
+         y="180"
+         width="62.5"
+         height="30"
+         xlink:href="#def30002944" />
+      <use
+         id="sys30002939"
+         x="335"
+         y="230"
+         width="62.5"
+         height="30"
+         xlink:href="#def30002939" />
+      <use
+         id="sys30002949"
+         x="370"
+         y="90"
+         width="62.5"
+         height="30"
+         xlink:href="#def30002949" />
+      <use
+         id="sys30002950"
+         x="420"
+         y="130"
+         width="62.5"
+         height="30"
+         xlink:href="#def30002950" />
+      <use
+         id="sys30002941"
+         x="420"
+         y="180"
+         width="62.5"
+         height="30"
+         xlink:href="#def30002941" />
+    </g>
+  </g>
+</svg>

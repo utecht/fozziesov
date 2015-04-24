@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="svgdoc"
+   width="211.08568"
+   height="315.35355"
+   viewBox="0 0 211.08568 315.35355"
+   onload="init(evt)"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="VW7-YN.svg">
+  <metadata
+     id="metadata88">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs86" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="640"
+     inkscape:window-height="480"
+     id="namedview84"
+     showgrid="false"
+     inkscape:zoom="0.30729167"
+     inkscape:cx="-276.41433"
+     inkscape:cy="155.85355"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svgdoc" />
+  <style
+     type="text/css"
+     id="style3">
+
+/* jumps */
+.j	{ stroke: #000000; stroke-width: 1; }
+.jc	{ stroke: #FF0000; stroke-width: 1; }
+.jr	{ stroke: #800080; stroke-width: 1; }
+.jx	{ stroke: #000000; stroke-width: 3; }
+.jxc	{ stroke: #FF0000; stroke-width: 3; }
+.jxr	{ stroke: #800080; stroke-width: 3; }
+.jb	{ stroke: #0000FF; stroke-width: 3; fill: none; }
+
+/* external system */
+.eh	{ stroke: #00B000; stroke-width: 1; fill: #CCCCCC; }
+.el	{ stroke: #F00000; stroke-width: 1; stroke-dasharray: 8, 4; fill: #CCCCCC; }
+.e	{ stroke: #000000; stroke-width: 1; fill: #CCCCCC; }
+.exh	{ stroke: #00B000; stroke-width: 2; fill: #CCCCCC; }
+.exl	{ stroke: #F00000; stroke-width: 2; stroke-dasharray: 8, 3; fill: #CCCCCC; }
+.ex	{ stroke: #000000; stroke-width: 2; fill: #CCCCCC; }
+
+/* external system text */ 
+.es	{ font-size: 9px; font-family: Arial, Helvetica, sans-serif; fill: #000000; }
+.er	{ font-weight: bold; font-size: 7px; font-family: verdana, Arial, sans-serif; fill: #000000; }
+
+/* system */
+.sh	{ stroke: #00B000; stroke-width: 1; }
+.sl	{ stroke: #F00000; stroke-width: 1; stroke-dasharray: 8, 3 }
+.s	{ stroke: #000000; stroke-width: 1; }
+.sxh	{ stroke: #00B000; stroke-width: 2.5; }
+.sxl	{ stroke: #F00000; stroke-width: 2.5; stroke-dasharray: 8, 3; }
+.sx	{ stroke: #000000; stroke-width: 2.5; }
+.scl	{ stroke: transparent; stroke-width: 2; fill: transparent; }
+
+/* system text */
+.ss	{ font-family: Arial, Helvetica, sans-serif; font-size: 9px; fill: #000000; }
+.st	{ font-weight: bold; font-size: 7px; font-family: verdana, Arial, sans-serif; fill: #000000; }
+.so	{ fill: #ff0000; }
+.i	{ stroke: #0080FF; stroke-width: 1; fill: none; }
+
+/* station */
+.o	{ fill: #ffffff; }
+.oc	{ fill: #0000FF; }
+.oa	{ fill: #FFDC00; }
+.og	{ fill: #00FF00; }
+.om	{ fill: #FF0000; }
+.o1	{ fill: #ffffff; stroke-width: 0.5; stroke: #000000; }
+.o2	{ fill: #ffffff; stroke-width: 0.5; stroke: #000000; }
+.oo	{ fill: none; stroke: #000000; stroke-width: 1; }
+
+/* station services */
+.v1	{ fill: #FF0000; }
+.v2	{ fill: #00FF00; }
+.v3	{ fill: #FFDC00; }
+.v4	{ fill: #0000FF; }
+
+/* legend */
+.lb	{ stroke-width: 1; stroke: #000000; fill: #ffffff; }
+.lbt	{ stroke-width: 1; stroke: #000000; fill: #ffffff; }
+.lt	{ fill: #000000; font-family: Arial, Helvetica, sans-serif; font-weight: bold; font-size: 12px; }
+.lc	{ fill: #000000; font-family: Arial, Helvetica, sans-serif; font-size: 11px; }
+.l	{ fill: #000000; font-family: Arial, Helvetica, sans-serif; font-size: 10px; }
+
+/* highlight */
+.h	{ fill: none; stroke-width: 3; stroke: #000000; }
+.hw	{ fill: none; stroke-width: 2; stroke: #00AA00; }
+.hl	{ fill: none; stroke-width: 2; stroke: #F00000; }
+.hg	{ fill: none; stroke-width: 2; stroke: #00B000; }
+
+/* incursion */
+.inc	{ fill: url(#incBg); }
+.incs	{ fill: url(#incStBg); }
+
+/* contested */
+.con	{ fill: url(#conBg); }
+
+</style>
+  <g
+     id="map"
+     transform="translate(-788.41433,-224.5)">
+    <defs
+       id="defs6">
+      <symbol
+         id="def30002903">
+        <g
+           id="g9">
+          <rect
+             id="rect30002903"
+             x="4"
+             y="3.5"
+             rx="11"
+             ry="11"
+             width="50"
+             height="22"
+             class="s"
+             style="fill:#efeae0;stroke:#000000;stroke-width:1" />
+          <text
+             x="28"
+             y="14"
+             class="ss"
+             id="text12"
+             style="font-size:9px;font-family:Arial, Helvetica, sans-serif;text-anchor:middle;fill:#000000">2-KF56</text>
+          <text
+             id="txt30002903"
+             x="28"
+             y="21.700001"
+             class="st so"
+             style="font-weight:bold;font-size:7px;font-family:verdana, Arial, sans-serif;text-anchor:middle;fill:#ff0000" />
+        </g>
+      </symbol>
+      <symbol
+         id="def30002902">
+        <g
+           id="g16">
+          <rect
+             id="rect30002902"
+             x="4"
+             y="3.5"
+             rx="11"
+             ry="11"
+             width="50"
+             height="22"
+             class="s"
+             style="fill:#efeae0;stroke:#000000;stroke-width:1" />
+          <text
+             x="28"
+             y="14"
+             class="ss"
+             id="text19"
+             style="font-size:9px;font-family:Arial, Helvetica, sans-serif;text-anchor:middle;fill:#000000">YA0-XJ</text>
+          <text
+             id="txt30002902"
+             x="28"
+             y="21.700001"
+             class="st so"
+             style="font-weight:bold;font-size:7px;font-family:verdana, Arial, sans-serif;text-anchor:middle;fill:#ff0000" />
+        </g>
+      </symbol>
+      <symbol
+         id="def30002907">
+        <g
+           id="g23">
+          <rect
+             id="rect30002907"
+             x="4"
+             y="3.5"
+             rx="11"
+             ry="11"
+             width="50"
+             height="22"
+             class="s"
+             style="fill:#efeae0;stroke:#000000;stroke-width:1" />
+          <text
+             x="28"
+             y="14"
+             class="ss"
+             id="text26"
+             style="font-size:9px;font-family:Arial, Helvetica, sans-serif;text-anchor:middle;fill:#000000">II-5O9</text>
+          <text
+             id="txt30002907"
+             x="28"
+             y="21.700001"
+             class="st so"
+             style="font-weight:bold;font-size:7px;font-family:verdana, Arial, sans-serif;text-anchor:middle;fill:#ff0000" />
+        </g>
+      </symbol>
+      <symbol
+         id="def30002904">
+        <g
+           id="g30">
+          <rect
+             id="rect30002904"
+             x="4"
+             y="3.5"
+             rx="11"
+             ry="11"
+             width="50"
+             height="22"
+             class="s"
+             style="fill:#efeae0;stroke:#000000;stroke-width:1" />
+          <text
+             x="28"
+             y="14"
+             class="ss"
+             id="text33"
+             style="font-size:9px;font-family:Arial, Helvetica, sans-serif;text-anchor:middle;fill:#000000">VFK-IV</text>
+          <text
+             id="txt30002904"
+             x="28"
+             y="21.700001"
+             class="st so"
+             style="font-weight:bold;font-size:7px;font-family:verdana, Arial, sans-serif;text-anchor:middle;fill:#ff0000" />
+        </g>
+      </symbol>
+      <symbol
+         id="def30002905">
+        <g
+           id="g37">
+          <rect
+             id="rect30002905"
+             x="4"
+             y="3.5"
+             rx="11"
+             ry="11"
+             width="50"
+             height="22"
+             class="s"
+             style="fill:#efeae0;stroke:#000000;stroke-width:1" />
+          <text
+             x="28"
+             y="14"
+             class="ss"
+             id="text40"
+             style="font-size:9px;font-family:Arial, Helvetica, sans-serif;text-anchor:middle;fill:#000000">2R-CRW</text>
+          <text
+             id="txt30002905"
+             x="28"
+             y="21.700001"
+             class="st so"
+             style="font-weight:bold;font-size:7px;font-family:verdana, Arial, sans-serif;text-anchor:middle;fill:#ff0000" />
+        </g>
+      </symbol>
+      <symbol
+         id="def30002906">
+        <g
+           id="g44">
+          <rect
+             id="rect30002906"
+             x="4"
+             y="3.5"
+             rx="11"
+             ry="11"
+             width="50"
+             height="22"
+             class="s"
+             style="fill:#efeae0;stroke:#000000;stroke-width:1" />
+          <text
+             x="28"
+             y="14"
+             class="ss"
+             id="text47"
+             style="font-size:9px;font-family:Arial, Helvetica, sans-serif;text-anchor:middle;fill:#000000">CCP-US</text>
+          <text
+             id="txt30002906"
+             x="28"
+             y="21.700001"
+             class="st so"
+             style="font-weight:bold;font-size:7px;font-family:verdana, Arial, sans-serif;text-anchor:middle;fill:#ff0000" />
+        </g>
+      </symbol>
+      <radialGradient
+         id="conBg">
+        <stop
+           offset="50%"
+           stop-color="#FFA0FF"
+           id="stop51" />
+        <stop
+           offset="95%"
+           stop-color="#FFA0FF"
+           stop-opacity="0"
+           id="stop53" />
+      </radialGradient>
+      <radialGradient
+         id="incBg">
+        <stop
+           offset="50%"
+           stop-color="#AFCE00"
+           id="stop56" />
+        <stop
+           offset="100%"
+           stop-color="#AFCE00"
+           stop-opacity="0"
+           id="stop58" />
+      </radialGradient>
+      <radialGradient
+         id="incStBg">
+        <stop
+           offset="50%"
+           stop-color="#808000"
+           id="stop61" />
+        <stop
+           offset="100%"
+           stop-color="#808000"
+           stop-opacity="0"
+           id="stop63" />
+      </radialGradient>
+    </defs>
+    <g
+       id="jumps">
+      <line
+         id="j-30002902-30002901"
+         x1="788.5"
+         y1="419.5"
+         x2="903.5"
+         y2="439.5"
+         class="jc"
+         style="stroke:#ff0000;stroke-width:1" />
+      <line
+         id="j-30002903-30002902"
+         x1="903.5"
+         y1="439.5"
+         x2="903.5"
+         y2="394.5"
+         class="j"
+         style="stroke:#000000;stroke-width:1" />
+      <line
+         id="j-30002905-30002902"
+         x1="903.5"
+         y1="439.5"
+         x2="973.5"
+         y2="394.5"
+         class="j"
+         style="stroke:#000000;stroke-width:1" />
+      <line
+         id="j-30002904-30002903"
+         x1="903.5"
+         y1="394.5"
+         x2="973.5"
+         y2="349.5"
+         class="j"
+         style="stroke:#000000;stroke-width:1" />
+      <line
+         id="j-30002905-30002903"
+         x1="903.5"
+         y1="394.5"
+         x2="973.5"
+         y2="394.5"
+         class="j"
+         style="stroke:#000000;stroke-width:1" />
+      <line
+         id="j-30002905-30002904"
+         x1="973.5"
+         y1="349.5"
+         x2="973.5"
+         y2="394.5"
+         class="j"
+         style="stroke:#000000;stroke-width:1" />
+      <line
+         id="j-30002907-30002904"
+         x1="973.5"
+         y1="349.5"
+         x2="973.5"
+         y2="309.5"
+         class="j"
+         style="stroke:#000000;stroke-width:1" />
+      <line
+         id="j-30002908-30002904"
+         x1="973.5"
+         y1="349.5"
+         x2="868.5"
+         y2="304.5"
+         class="jc"
+         style="stroke:#ff0000;stroke-width:1" />
+      <line
+         id="j-30002906-30002905"
+         x1="973.5"
+         y1="394.5"
+         x2="973.5"
+         y2="439.5"
+         class="j"
+         style="stroke:#000000;stroke-width:1" />
+      <line
+         id="j-30003681-30002906"
+         x1="973.5"
+         y1="439.5"
+         x2="873.5"
+         y2="539.5"
+         class="jr"
+         style="stroke:#800080;stroke-width:1" />
+      <line
+         id="j-30002915-30002907"
+         x1="973.5"
+         y1="309.5"
+         x2="973.5"
+         y2="224.5"
+         class="jc"
+         style="stroke:#ff0000;stroke-width:1" />
+    </g>
+    <g
+       id="sysuse">
+      <use
+         id="sys30002903"
+         x="875"
+         y="380"
+         width="62.5"
+         height="30"
+         xlink:href="#def30002903" />
+      <use
+         id="sys30002902"
+         x="875"
+         y="425"
+         width="62.5"
+         height="30"
+         xlink:href="#def30002902" />
+      <use
+         id="sys30002907"
+         x="945"
+         y="295"
+         width="62.5"
+         height="30"
+         xlink:href="#def30002907" />
+      <use
+         id="sys30002904"
+         x="945"
+         y="335"
+         width="62.5"
+         height="30"
+         xlink:href="#def30002904" />
+      <use
+         id="sys30002905"
+         x="945"
+         y="380"
+         width="62.5"
+         height="30"
+         xlink:href="#def30002905" />
+      <use
+         id="sys30002906"
+         x="945"
+         y="425"
+         width="62.5"
+         height="30"
+         xlink:href="#def30002906" />
+    </g>
+  </g>
+</svg>

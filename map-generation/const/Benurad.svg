@@ -1,0 +1,1309 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="svgdoc"
+   width="291.02774"
+   height="290.32214"
+   viewBox="0 0 291.02774 290.32214"
+   onload="init(evt)"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="Benurad.svg">
+  <metadata
+     id="metadata474">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs472" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="640"
+     inkscape:window-height="480"
+     id="namedview470"
+     showgrid="false"
+     inkscape:zoom="0.30729167"
+     inkscape:cx="-51.472265"
+     inkscape:cy="-39.293099"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svgdoc" />
+  <style
+     type="text/css"
+     id="style3">
+
+/* jumps */
+.j	{ stroke: #000000; stroke-width: 1; }
+.jc	{ stroke: #FF0000; stroke-width: 1; }
+.jr	{ stroke: #800080; stroke-width: 1; }
+.jx	{ stroke: #000000; stroke-width: 3; }
+.jxc	{ stroke: #FF0000; stroke-width: 3; }
+.jxr	{ stroke: #800080; stroke-width: 3; }
+.jb	{ stroke: #0000FF; stroke-width: 3; fill: none; }
+
+/* external system */
+.eh	{ stroke: #00B000; stroke-width: 1; fill: #CCCCCC; }
+.el	{ stroke: #F00000; stroke-width: 1; stroke-dasharray: 8, 4; fill: #CCCCCC; }
+.e	{ stroke: #000000; stroke-width: 1; fill: #CCCCCC; }
+.exh	{ stroke: #00B000; stroke-width: 2; fill: #CCCCCC; }
+.exl	{ stroke: #F00000; stroke-width: 2; stroke-dasharray: 8, 3; fill: #CCCCCC; }
+.ex	{ stroke: #000000; stroke-width: 2; fill: #CCCCCC; }
+
+/* external system text */ 
+.es	{ font-size: 9px; font-family: Arial, Helvetica, sans-serif; fill: #000000; }
+.er	{ font-weight: bold; font-size: 7px; font-family: verdana, Arial, sans-serif; fill: #000000; }
+
+/* system */
+.sh	{ stroke: #00B000; stroke-width: 1; }
+.sl	{ stroke: #F00000; stroke-width: 1; stroke-dasharray: 8, 3 }
+.s	{ stroke: #000000; stroke-width: 1; }
+.sxh	{ stroke: #00B000; stroke-width: 2.5; }
+.sxl	{ stroke: #F00000; stroke-width: 2.5; stroke-dasharray: 8, 3; }
+.sx	{ stroke: #000000; stroke-width: 2.5; }
+.scl	{ stroke: transparent; stroke-width: 2; fill: transparent; }
+
+/* system text */
+.ss	{ font-family: Arial, Helvetica, sans-serif; font-size: 9px; fill: #000000; }
+.st	{ font-weight: bold; font-size: 7px; font-family: verdana, Arial, sans-serif; fill: #000000; }
+.so	{ fill: #ff0000; }
+.i	{ stroke: #0080FF; stroke-width: 1; fill: none; }
+
+/* station */
+.o	{ fill: #ffffff; }
+.oc	{ fill: #0000FF; }
+.oa	{ fill: #FFDC00; }
+.og	{ fill: #00FF00; }
+.om	{ fill: #FF0000; }
+.o1	{ fill: #ffffff; stroke-width: 0.5; stroke: #000000; }
+.o2	{ fill: #ffffff; stroke-width: 0.5; stroke: #000000; }
+.oo	{ fill: none; stroke: #000000; stroke-width: 1; }
+
+/* station services */
+.v1	{ fill: #FF0000; }
+.v2	{ fill: #00FF00; }
+.v3	{ fill: #FFDC00; }
+.v4	{ fill: #0000FF; }
+
+/* legend */
+.lb	{ stroke-width: 1; stroke: #000000; fill: #ffffff; }
+.lbt	{ stroke-width: 1; stroke: #000000; fill: #ffffff; }
+.lt	{ fill: #000000; font-family: Arial, Helvetica, sans-serif; font-weight: bold; font-size: 12px; }
+.lc	{ fill: #000000; font-family: Arial, Helvetica, sans-serif; font-size: 11px; }
+.l	{ fill: #000000; font-family: Arial, Helvetica, sans-serif; font-size: 10px; }
+
+/* highlight */
+.h	{ fill: none; stroke-width: 3; stroke: #000000; }
+.hw	{ fill: none; stroke-width: 2; stroke: #00AA00; }
+.hl	{ fill: none; stroke-width: 2; stroke: #F00000; }
+.hg	{ fill: none; stroke-width: 2; stroke: #00B000; }
+
+/* incursion */
+.inc	{ fill: url(#incBg); }
+.incs	{ fill: url(#incStBg); }
+
+/* contested */
+.con	{ fill: url(#conBg); }
+
+</style>
+  <g
+     id="map"
+     transform="translate(-563.47226,-54.384767)">
+    <defs
+       id="defs6">
+      <symbol
+         id="def30002580">
+        <g
+           id="g9">
+          <rect
+             id="rect30002580"
+             x="4"
+             y="3.5"
+             rx="11"
+             ry="11"
+             width="50"
+             height="22"
+             class="sl"
+             style="fill:#efeae0;stroke:#f00000;stroke-width:1;stroke-dasharray:8, 3" />
+          <text
+             x="28"
+             y="14"
+             class="ss"
+             id="text12"
+             style="font-size:9px;font-family:Arial, Helvetica, sans-serif;text-anchor:middle;fill:#000000">Katugumur</text>
+          <text
+             id="txt30002580"
+             x="28"
+             y="21.700001"
+             class="st"
+             style="font-weight:bold;font-size:7px;font-family:verdana, Arial, sans-serif;text-anchor:middle;fill:#000000" />
+        </g>
+      </symbol>
+      <symbol
+         id="def30002575">
+        <g
+           id="g16">
+          <rect
+             id="rect30002575"
+             x="4"
+             y="3.5"
+             rx="11"
+             ry="11"
+             width="50"
+             height="22"
+             class="sl"
+             style="fill:#efeae0;stroke:#f00000;stroke-width:1;stroke-dasharray:8, 3" />
+          <text
+             x="28"
+             y="14"
+             class="ss"
+             id="text19"
+             style="font-size:9px;font-family:Arial, Helvetica, sans-serif;text-anchor:middle;fill:#000000">Sotrenzur</text>
+          <text
+             id="txt30002575"
+             x="28"
+             y="21.700001"
+             class="st"
+             style="font-weight:bold;font-size:7px;font-family:verdana, Arial, sans-serif;text-anchor:middle;fill:#000000" />
+        </g>
+      </symbol>
+      <symbol
+         id="def30002574">
+        <g
+           id="g23">
+          <rect
+             id="rect30002574"
+             x="4"
+             y="3.5"
+             rx="11"
+             ry="11"
+             width="50"
+             height="22"
+             class="sl"
+             style="fill:#efeae0;stroke:#f00000;stroke-width:1;stroke-dasharray:8, 3" />
+          <text
+             x="28"
+             y="14"
+             class="ss"
+             id="text26"
+             style="font-size:9px;font-family:Arial, Helvetica, sans-serif;text-anchor:middle;fill:#000000">Hrondedir</text>
+          <text
+             id="txt30002574"
+             x="28"
+             y="21.700001"
+             class="st"
+             style="font-weight:bold;font-size:7px;font-family:verdana, Arial, sans-serif;text-anchor:middle;fill:#000000" />
+        </g>
+      </symbol>
+      <symbol
+         id="def30002579">
+        <g
+           id="g30">
+          <rect
+             id="rect30002579"
+             x="4"
+             y="3.5"
+             rx="11"
+             ry="11"
+             width="50"
+             height="22"
+             class="sl"
+             style="fill:#efeae0;stroke:#f00000;stroke-width:1;stroke-dasharray:8, 3" />
+          <text
+             x="28"
+             y="14"
+             class="ss"
+             id="text33"
+             style="font-size:9px;font-family:Arial, Helvetica, sans-serif;text-anchor:middle;fill:#000000">Hedgiviter</text>
+          <text
+             id="txt30002579"
+             x="28"
+             y="21.700001"
+             class="st"
+             style="font-weight:bold;font-size:7px;font-family:verdana, Arial, sans-serif;text-anchor:middle;fill:#000000" />
+        </g>
+      </symbol>
+      <symbol
+         id="def30002578">
+        <g
+           id="g37">
+          <rect
+             id="rect30002578"
+             x="4"
+             y="3.5"
+             rx="11"
+             ry="11"
+             width="50"
+             height="22"
+             class="sh"
+             style="fill:#efeae0;stroke:#00b000;stroke-width:1" />
+          <text
+             x="28"
+             y="14"
+             class="ss"
+             id="text40"
+             style="font-size:9px;font-family:Arial, Helvetica, sans-serif;text-anchor:middle;fill:#000000">Otraren</text>
+          <text
+             id="txt30002578"
+             x="28"
+             y="21.700001"
+             class="st"
+             style="font-weight:bold;font-size:7px;font-family:verdana, Arial, sans-serif;text-anchor:middle;fill:#000000" />
+        </g>
+      </symbol>
+      <symbol
+         id="def30002576">
+        <g
+           id="g44">
+          <rect
+             id="rect30002576"
+             x="4"
+             y="3.5"
+             rx="11"
+             ry="11"
+             width="50"
+             height="22"
+             class="sl"
+             style="fill:#efeae0;stroke:#f00000;stroke-width:1;stroke-dasharray:8, 3" />
+          <text
+             x="28"
+             y="14"
+             class="ss"
+             id="text47"
+             style="font-size:9px;font-family:Arial, Helvetica, sans-serif;text-anchor:middle;fill:#000000">Hrondmund</text>
+          <text
+             id="txt30002576"
+             x="28"
+             y="21.700001"
+             class="st"
+             style="font-weight:bold;font-size:7px;font-family:verdana, Arial, sans-serif;text-anchor:middle;fill:#000000" />
+        </g>
+      </symbol>
+      <symbol
+         id="def30002577">
+        <g
+           id="g51">
+          <rect
+             id="rect30002577"
+             x="4"
+             y="3.5"
+             rx="11"
+             ry="11"
+             width="50"
+             height="22"
+             class="sl"
+             style="fill:#efeae0;stroke:#f00000;stroke-width:1;stroke-dasharray:8, 3" />
+          <text
+             x="28"
+             y="14"
+             class="ss"
+             id="text54"
+             style="font-size:9px;font-family:Arial, Helvetica, sans-serif;text-anchor:middle;fill:#000000">Bundindus</text>
+          <text
+             id="txt30002577"
+             x="28"
+             y="21.700001"
+             class="st"
+             style="font-weight:bold;font-size:7px;font-family:verdana, Arial, sans-serif;text-anchor:middle;fill:#000000" />
+        </g>
+      </symbol>
+      <linearGradient
+         id="fw500003-0">
+        <stop
+           offset="3%"
+           stop-color="#FFE8E8"
+           id="stop58" />
+        <stop
+           offset="4%"
+           stop-color="#FFA0FF"
+           id="stop60" />
+        <stop
+           offset="6%"
+           stop-color="#FFA0FF"
+           id="stop62" />
+        <stop
+           offset="7%"
+           stop-color="#FFF4CE"
+           id="stop64" />
+      </linearGradient>
+      <linearGradient
+         id="fw500003-5">
+        <stop
+           offset="7.5%"
+           stop-color="#FFE8E8"
+           id="stop67" />
+        <stop
+           offset="8.5%"
+           stop-color="#FFA0FF"
+           id="stop69" />
+        <stop
+           offset="10.5%"
+           stop-color="#FFA0FF"
+           id="stop71" />
+        <stop
+           offset="11.5%"
+           stop-color="#FFF4CE"
+           id="stop73" />
+      </linearGradient>
+      <linearGradient
+         id="fw500003-10">
+        <stop
+           offset="12%"
+           stop-color="#FFE8E8"
+           id="stop76" />
+        <stop
+           offset="13%"
+           stop-color="#FFA0FF"
+           id="stop78" />
+        <stop
+           offset="15%"
+           stop-color="#FFA0FF"
+           id="stop80" />
+        <stop
+           offset="16%"
+           stop-color="#FFF4CE"
+           id="stop82" />
+      </linearGradient>
+      <linearGradient
+         id="fw500003-15">
+        <stop
+           offset="16.5%"
+           stop-color="#FFE8E8"
+           id="stop85" />
+        <stop
+           offset="17.5%"
+           stop-color="#FFA0FF"
+           id="stop87" />
+        <stop
+           offset="19.5%"
+           stop-color="#FFA0FF"
+           id="stop89" />
+        <stop
+           offset="20.5%"
+           stop-color="#FFF4CE"
+           id="stop91" />
+      </linearGradient>
+      <linearGradient
+         id="fw500003-20">
+        <stop
+           offset="21%"
+           stop-color="#FFE8E8"
+           id="stop94" />
+        <stop
+           offset="22%"
+           stop-color="#FFA0FF"
+           id="stop96" />
+        <stop
+           offset="24%"
+           stop-color="#FFA0FF"
+           id="stop98" />
+        <stop
+           offset="25%"
+           stop-color="#FFF4CE"
+           id="stop100" />
+      </linearGradient>
+      <linearGradient
+         id="fw500003-25">
+        <stop
+           offset="25.5%"
+           stop-color="#FFE8E8"
+           id="stop103" />
+        <stop
+           offset="26.5%"
+           stop-color="#FFA0FF"
+           id="stop105" />
+        <stop
+           offset="28.5%"
+           stop-color="#FFA0FF"
+           id="stop107" />
+        <stop
+           offset="29.5%"
+           stop-color="#FFF4CE"
+           id="stop109" />
+      </linearGradient>
+      <linearGradient
+         id="fw500003-30">
+        <stop
+           offset="30%"
+           stop-color="#FFE8E8"
+           id="stop112" />
+        <stop
+           offset="31%"
+           stop-color="#FFA0FF"
+           id="stop114" />
+        <stop
+           offset="33%"
+           stop-color="#FFA0FF"
+           id="stop116" />
+        <stop
+           offset="34%"
+           stop-color="#FFF4CE"
+           id="stop118" />
+      </linearGradient>
+      <linearGradient
+         id="fw500003-35">
+        <stop
+           offset="34.5%"
+           stop-color="#FFE8E8"
+           id="stop121" />
+        <stop
+           offset="35.5%"
+           stop-color="#FFA0FF"
+           id="stop123" />
+        <stop
+           offset="37.5%"
+           stop-color="#FFA0FF"
+           id="stop125" />
+        <stop
+           offset="38.5%"
+           stop-color="#FFF4CE"
+           id="stop127" />
+      </linearGradient>
+      <linearGradient
+         id="fw500003-40">
+        <stop
+           offset="39%"
+           stop-color="#FFE8E8"
+           id="stop130" />
+        <stop
+           offset="40%"
+           stop-color="#FFA0FF"
+           id="stop132" />
+        <stop
+           offset="42%"
+           stop-color="#FFA0FF"
+           id="stop134" />
+        <stop
+           offset="43%"
+           stop-color="#FFF4CE"
+           id="stop136" />
+      </linearGradient>
+      <linearGradient
+         id="fw500003-45">
+        <stop
+           offset="43.5%"
+           stop-color="#FFE8E8"
+           id="stop139" />
+        <stop
+           offset="44.5%"
+           stop-color="#FFA0FF"
+           id="stop141" />
+        <stop
+           offset="46.5%"
+           stop-color="#FFA0FF"
+           id="stop143" />
+        <stop
+           offset="47.5%"
+           stop-color="#FFF4CE"
+           id="stop145" />
+      </linearGradient>
+      <linearGradient
+         id="fw500003-50">
+        <stop
+           offset="48%"
+           stop-color="#FFE8E8"
+           id="stop148" />
+        <stop
+           offset="49%"
+           stop-color="#FFA0FF"
+           id="stop150" />
+        <stop
+           offset="51%"
+           stop-color="#FFA0FF"
+           id="stop152" />
+        <stop
+           offset="52%"
+           stop-color="#FFF4CE"
+           id="stop154" />
+      </linearGradient>
+      <linearGradient
+         id="fw500003-55">
+        <stop
+           offset="52.5%"
+           stop-color="#FFE8E8"
+           id="stop157" />
+        <stop
+           offset="53.5%"
+           stop-color="#FFA0FF"
+           id="stop159" />
+        <stop
+           offset="55.5%"
+           stop-color="#FFA0FF"
+           id="stop161" />
+        <stop
+           offset="56.5%"
+           stop-color="#FFF4CE"
+           id="stop163" />
+      </linearGradient>
+      <linearGradient
+         id="fw500003-60">
+        <stop
+           offset="57%"
+           stop-color="#FFE8E8"
+           id="stop166" />
+        <stop
+           offset="58%"
+           stop-color="#FFA0FF"
+           id="stop168" />
+        <stop
+           offset="60%"
+           stop-color="#FFA0FF"
+           id="stop170" />
+        <stop
+           offset="61%"
+           stop-color="#FFF4CE"
+           id="stop172" />
+      </linearGradient>
+      <linearGradient
+         id="fw500003-65">
+        <stop
+           offset="61.5%"
+           stop-color="#FFE8E8"
+           id="stop175" />
+        <stop
+           offset="62.5%"
+           stop-color="#FFA0FF"
+           id="stop177" />
+        <stop
+           offset="64.5%"
+           stop-color="#FFA0FF"
+           id="stop179" />
+        <stop
+           offset="65.5%"
+           stop-color="#FFF4CE"
+           id="stop181" />
+      </linearGradient>
+      <linearGradient
+         id="fw500003-70">
+        <stop
+           offset="66%"
+           stop-color="#FFE8E8"
+           id="stop184" />
+        <stop
+           offset="67%"
+           stop-color="#FFA0FF"
+           id="stop186" />
+        <stop
+           offset="69%"
+           stop-color="#FFA0FF"
+           id="stop188" />
+        <stop
+           offset="70%"
+           stop-color="#FFF4CE"
+           id="stop190" />
+      </linearGradient>
+      <linearGradient
+         id="fw500003-75">
+        <stop
+           offset="70.5%"
+           stop-color="#FFE8E8"
+           id="stop193" />
+        <stop
+           offset="71.5%"
+           stop-color="#FFA0FF"
+           id="stop195" />
+        <stop
+           offset="73.5%"
+           stop-color="#FFA0FF"
+           id="stop197" />
+        <stop
+           offset="74.5%"
+           stop-color="#FFF4CE"
+           id="stop199" />
+      </linearGradient>
+      <linearGradient
+         id="fw500003-80">
+        <stop
+           offset="75%"
+           stop-color="#FFE8E8"
+           id="stop202" />
+        <stop
+           offset="76%"
+           stop-color="#FFA0FF"
+           id="stop204" />
+        <stop
+           offset="78%"
+           stop-color="#FFA0FF"
+           id="stop206" />
+        <stop
+           offset="79%"
+           stop-color="#FFF4CE"
+           id="stop208" />
+      </linearGradient>
+      <linearGradient
+         id="fw500003-85">
+        <stop
+           offset="79.5%"
+           stop-color="#FFE8E8"
+           id="stop211" />
+        <stop
+           offset="80.5%"
+           stop-color="#FFA0FF"
+           id="stop213" />
+        <stop
+           offset="82.5%"
+           stop-color="#FFA0FF"
+           id="stop215" />
+        <stop
+           offset="83.5%"
+           stop-color="#FFF4CE"
+           id="stop217" />
+      </linearGradient>
+      <linearGradient
+         id="fw500003-90">
+        <stop
+           offset="84%"
+           stop-color="#FFE8E8"
+           id="stop220" />
+        <stop
+           offset="85%"
+           stop-color="#FFA0FF"
+           id="stop222" />
+        <stop
+           offset="87%"
+           stop-color="#FFA0FF"
+           id="stop224" />
+        <stop
+           offset="88%"
+           stop-color="#FFF4CE"
+           id="stop226" />
+      </linearGradient>
+      <linearGradient
+         id="fw500003-95">
+        <stop
+           offset="88.5%"
+           stop-color="#FFE8E8"
+           id="stop229" />
+        <stop
+           offset="89.5%"
+           stop-color="#FFA0FF"
+           id="stop231" />
+        <stop
+           offset="91.5%"
+           stop-color="#FFA0FF"
+           id="stop233" />
+        <stop
+           offset="92.5%"
+           stop-color="#FFF4CE"
+           id="stop235" />
+      </linearGradient>
+      <linearGradient
+         id="fw500003-100">
+        <stop
+           offset="93%"
+           stop-color="#FFE8E8"
+           id="stop238" />
+        <stop
+           offset="94%"
+           stop-color="#FFA0FF"
+           id="stop240" />
+        <stop
+           offset="96%"
+           stop-color="#FFA0FF"
+           id="stop242" />
+        <stop
+           offset="97%"
+           stop-color="#FFF4CE"
+           id="stop244" />
+      </linearGradient>
+      <linearGradient
+         id="fw500002-0">
+        <stop
+           offset="3%"
+           stop-color="#FFF4CE"
+           id="stop247" />
+        <stop
+           offset="4%"
+           stop-color="#FFA0FF"
+           id="stop249" />
+        <stop
+           offset="6%"
+           stop-color="#FFA0FF"
+           id="stop251" />
+        <stop
+           offset="7%"
+           stop-color="#FFE8E8"
+           id="stop253" />
+      </linearGradient>
+      <linearGradient
+         id="fw500002-5">
+        <stop
+           offset="7.5%"
+           stop-color="#FFF4CE"
+           id="stop256" />
+        <stop
+           offset="8.5%"
+           stop-color="#FFA0FF"
+           id="stop258" />
+        <stop
+           offset="10.5%"
+           stop-color="#FFA0FF"
+           id="stop260" />
+        <stop
+           offset="11.5%"
+           stop-color="#FFE8E8"
+           id="stop262" />
+      </linearGradient>
+      <linearGradient
+         id="fw500002-10">
+        <stop
+           offset="12%"
+           stop-color="#FFF4CE"
+           id="stop265" />
+        <stop
+           offset="13%"
+           stop-color="#FFA0FF"
+           id="stop267" />
+        <stop
+           offset="15%"
+           stop-color="#FFA0FF"
+           id="stop269" />
+        <stop
+           offset="16%"
+           stop-color="#FFE8E8"
+           id="stop271" />
+      </linearGradient>
+      <linearGradient
+         id="fw500002-15">
+        <stop
+           offset="16.5%"
+           stop-color="#FFF4CE"
+           id="stop274" />
+        <stop
+           offset="17.5%"
+           stop-color="#FFA0FF"
+           id="stop276" />
+        <stop
+           offset="19.5%"
+           stop-color="#FFA0FF"
+           id="stop278" />
+        <stop
+           offset="20.5%"
+           stop-color="#FFE8E8"
+           id="stop280" />
+      </linearGradient>
+      <linearGradient
+         id="fw500002-20">
+        <stop
+           offset="21%"
+           stop-color="#FFF4CE"
+           id="stop283" />
+        <stop
+           offset="22%"
+           stop-color="#FFA0FF"
+           id="stop285" />
+        <stop
+           offset="24%"
+           stop-color="#FFA0FF"
+           id="stop287" />
+        <stop
+           offset="25%"
+           stop-color="#FFE8E8"
+           id="stop289" />
+      </linearGradient>
+      <linearGradient
+         id="fw500002-25">
+        <stop
+           offset="25.5%"
+           stop-color="#FFF4CE"
+           id="stop292" />
+        <stop
+           offset="26.5%"
+           stop-color="#FFA0FF"
+           id="stop294" />
+        <stop
+           offset="28.5%"
+           stop-color="#FFA0FF"
+           id="stop296" />
+        <stop
+           offset="29.5%"
+           stop-color="#FFE8E8"
+           id="stop298" />
+      </linearGradient>
+      <linearGradient
+         id="fw500002-30">
+        <stop
+           offset="30%"
+           stop-color="#FFF4CE"
+           id="stop301" />
+        <stop
+           offset="31%"
+           stop-color="#FFA0FF"
+           id="stop303" />
+        <stop
+           offset="33%"
+           stop-color="#FFA0FF"
+           id="stop305" />
+        <stop
+           offset="34%"
+           stop-color="#FFE8E8"
+           id="stop307" />
+      </linearGradient>
+      <linearGradient
+         id="fw500002-35">
+        <stop
+           offset="34.5%"
+           stop-color="#FFF4CE"
+           id="stop310" />
+        <stop
+           offset="35.5%"
+           stop-color="#FFA0FF"
+           id="stop312" />
+        <stop
+           offset="37.5%"
+           stop-color="#FFA0FF"
+           id="stop314" />
+        <stop
+           offset="38.5%"
+           stop-color="#FFE8E8"
+           id="stop316" />
+      </linearGradient>
+      <linearGradient
+         id="fw500002-40">
+        <stop
+           offset="39%"
+           stop-color="#FFF4CE"
+           id="stop319" />
+        <stop
+           offset="40%"
+           stop-color="#FFA0FF"
+           id="stop321" />
+        <stop
+           offset="42%"
+           stop-color="#FFA0FF"
+           id="stop323" />
+        <stop
+           offset="43%"
+           stop-color="#FFE8E8"
+           id="stop325" />
+      </linearGradient>
+      <linearGradient
+         id="fw500002-45">
+        <stop
+           offset="43.5%"
+           stop-color="#FFF4CE"
+           id="stop328" />
+        <stop
+           offset="44.5%"
+           stop-color="#FFA0FF"
+           id="stop330" />
+        <stop
+           offset="46.5%"
+           stop-color="#FFA0FF"
+           id="stop332" />
+        <stop
+           offset="47.5%"
+           stop-color="#FFE8E8"
+           id="stop334" />
+      </linearGradient>
+      <linearGradient
+         id="fw500002-50">
+        <stop
+           offset="48%"
+           stop-color="#FFF4CE"
+           id="stop337" />
+        <stop
+           offset="49%"
+           stop-color="#FFA0FF"
+           id="stop339" />
+        <stop
+           offset="51%"
+           stop-color="#FFA0FF"
+           id="stop341" />
+        <stop
+           offset="52%"
+           stop-color="#FFE8E8"
+           id="stop343" />
+      </linearGradient>
+      <linearGradient
+         id="fw500002-55">
+        <stop
+           offset="52.5%"
+           stop-color="#FFF4CE"
+           id="stop346" />
+        <stop
+           offset="53.5%"
+           stop-color="#FFA0FF"
+           id="stop348" />
+        <stop
+           offset="55.5%"
+           stop-color="#FFA0FF"
+           id="stop350" />
+        <stop
+           offset="56.5%"
+           stop-color="#FFE8E8"
+           id="stop352" />
+      </linearGradient>
+      <linearGradient
+         id="fw500002-60">
+        <stop
+           offset="57%"
+           stop-color="#FFF4CE"
+           id="stop355" />
+        <stop
+           offset="58%"
+           stop-color="#FFA0FF"
+           id="stop357" />
+        <stop
+           offset="60%"
+           stop-color="#FFA0FF"
+           id="stop359" />
+        <stop
+           offset="61%"
+           stop-color="#FFE8E8"
+           id="stop361" />
+      </linearGradient>
+      <linearGradient
+         id="fw500002-65">
+        <stop
+           offset="61.5%"
+           stop-color="#FFF4CE"
+           id="stop364" />
+        <stop
+           offset="62.5%"
+           stop-color="#FFA0FF"
+           id="stop366" />
+        <stop
+           offset="64.5%"
+           stop-color="#FFA0FF"
+           id="stop368" />
+        <stop
+           offset="65.5%"
+           stop-color="#FFE8E8"
+           id="stop370" />
+      </linearGradient>
+      <linearGradient
+         id="fw500002-70">
+        <stop
+           offset="66%"
+           stop-color="#FFF4CE"
+           id="stop373" />
+        <stop
+           offset="67%"
+           stop-color="#FFA0FF"
+           id="stop375" />
+        <stop
+           offset="69%"
+           stop-color="#FFA0FF"
+           id="stop377" />
+        <stop
+           offset="70%"
+           stop-color="#FFE8E8"
+           id="stop379" />
+      </linearGradient>
+      <linearGradient
+         id="fw500002-75">
+        <stop
+           offset="70.5%"
+           stop-color="#FFF4CE"
+           id="stop382" />
+        <stop
+           offset="71.5%"
+           stop-color="#FFA0FF"
+           id="stop384" />
+        <stop
+           offset="73.5%"
+           stop-color="#FFA0FF"
+           id="stop386" />
+        <stop
+           offset="74.5%"
+           stop-color="#FFE8E8"
+           id="stop388" />
+      </linearGradient>
+      <linearGradient
+         id="fw500002-80">
+        <stop
+           offset="75%"
+           stop-color="#FFF4CE"
+           id="stop391" />
+        <stop
+           offset="76%"
+           stop-color="#FFA0FF"
+           id="stop393" />
+        <stop
+           offset="78%"
+           stop-color="#FFA0FF"
+           id="stop395" />
+        <stop
+           offset="79%"
+           stop-color="#FFE8E8"
+           id="stop397" />
+      </linearGradient>
+      <linearGradient
+         id="fw500002-85">
+        <stop
+           offset="79.5%"
+           stop-color="#FFF4CE"
+           id="stop400" />
+        <stop
+           offset="80.5%"
+           stop-color="#FFA0FF"
+           id="stop402" />
+        <stop
+           offset="82.5%"
+           stop-color="#FFA0FF"
+           id="stop404" />
+        <stop
+           offset="83.5%"
+           stop-color="#FFE8E8"
+           id="stop406" />
+      </linearGradient>
+      <linearGradient
+         id="fw500002-90">
+        <stop
+           offset="84%"
+           stop-color="#FFF4CE"
+           id="stop409" />
+        <stop
+           offset="85%"
+           stop-color="#FFA0FF"
+           id="stop411" />
+        <stop
+           offset="87%"
+           stop-color="#FFA0FF"
+           id="stop413" />
+        <stop
+           offset="88%"
+           stop-color="#FFE8E8"
+           id="stop415" />
+      </linearGradient>
+      <linearGradient
+         id="fw500002-95">
+        <stop
+           offset="88.5%"
+           stop-color="#FFF4CE"
+           id="stop418" />
+        <stop
+           offset="89.5%"
+           stop-color="#FFA0FF"
+           id="stop420" />
+        <stop
+           offset="91.5%"
+           stop-color="#FFA0FF"
+           id="stop422" />
+        <stop
+           offset="92.5%"
+           stop-color="#FFE8E8"
+           id="stop424" />
+      </linearGradient>
+      <linearGradient
+         id="fw500002-100">
+        <stop
+           offset="93%"
+           stop-color="#FFF4CE"
+           id="stop427" />
+        <stop
+           offset="94%"
+           stop-color="#FFA0FF"
+           id="stop429" />
+        <stop
+           offset="96%"
+           stop-color="#FFA0FF"
+           id="stop431" />
+        <stop
+           offset="97%"
+           stop-color="#FFE8E8"
+           id="stop433" />
+      </linearGradient>
+      <radialGradient
+         id="conBg">
+        <stop
+           offset="50%"
+           stop-color="#FFA0FF"
+           id="stop436" />
+        <stop
+           offset="95%"
+           stop-color="#FFA0FF"
+           stop-opacity="0"
+           id="stop438" />
+      </radialGradient>
+      <radialGradient
+         id="incBg">
+        <stop
+           offset="50%"
+           stop-color="#AFCE00"
+           id="stop441" />
+        <stop
+           offset="100%"
+           stop-color="#AFCE00"
+           stop-opacity="0"
+           id="stop443" />
+      </radialGradient>
+      <radialGradient
+         id="incStBg">
+        <stop
+           offset="50%"
+           stop-color="#808000"
+           id="stop446" />
+        <stop
+           offset="100%"
+           stop-color="#808000"
+           stop-opacity="0"
+           id="stop448" />
+      </radialGradient>
+    </defs>
+    <g
+       id="jumps">
+      <line
+         id="j-30002574-30002550"
+         x1="768.5"
+         y1="289.5"
+         x2="733.5"
+         y2="244.5"
+         class="jc"
+         style="stroke:#ff0000;stroke-width:1" />
+      <line
+         id="j-30002580-30002553"
+         x1="673.5"
+         y1="344.5"
+         x2="648.5"
+         y2="289.5"
+         class="jc"
+         style="stroke:#ff0000;stroke-width:1" />
+      <line
+         id="j-30002574-30002556"
+         x1="688.5"
+         y1="54.5"
+         x2="733.5"
+         y2="244.5"
+         class="jc"
+         style="stroke:#ff0000;stroke-width:1" />
+      <line
+         id="j-30002575-30002556"
+         x1="688.5"
+         y1="54.5"
+         x2="653.5"
+         y2="244.5"
+         class="jc"
+         style="stroke:#ff0000;stroke-width:1" />
+      <line
+         id="j-30002575-30002559"
+         x1="563.5"
+         y1="239.5"
+         x2="653.5"
+         y2="244.5"
+         class="jc"
+         style="stroke:#ff0000;stroke-width:1" />
+      <line
+         id="j-30002575-30002574"
+         x1="733.5"
+         y1="244.5"
+         x2="653.5"
+         y2="244.5"
+         class="j"
+         style="stroke:#000000;stroke-width:1" />
+      <line
+         id="j-30002576-30002574"
+         x1="733.5"
+         y1="244.5"
+         x2="813.5"
+         y2="239.5"
+         class="j"
+         style="stroke:#000000;stroke-width:1" />
+      <line
+         id="j-30002580-30002575"
+         x1="653.5"
+         y1="244.5"
+         x2="648.5"
+         y2="289.5"
+         class="j"
+         style="stroke:#000000;stroke-width:1" />
+      <line
+         id="j-30002577-30002576"
+         x1="813.5"
+         y1="239.5"
+         x2="828.5"
+         y2="194.5"
+         class="j"
+         style="stroke:#000000;stroke-width:1" />
+      <line
+         id="j-30002578-30002577"
+         x1="828.5"
+         y1="194.5"
+         x2="803.5"
+         y2="149.5"
+         class="j"
+         style="stroke:#000000;stroke-width:1" />
+      <line
+         id="j-30002579-30002578"
+         x1="803.5"
+         y1="149.5"
+         x2="763.5"
+         y2="119.5"
+         class="j"
+         style="stroke:#000000;stroke-width:1" />
+    </g>
+    <g
+       id="sysuse">
+      <use
+         id="sys30002580"
+         x="620"
+         y="275"
+         width="62.5"
+         height="30"
+         xlink:href="#def30002580" />
+      <use
+         id="sys30002575"
+         x="625"
+         y="230"
+         width="62.5"
+         height="30"
+         xlink:href="#def30002575" />
+      <use
+         id="sys30002574"
+         x="705"
+         y="230"
+         width="62.5"
+         height="30"
+         xlink:href="#def30002574" />
+      <use
+         id="sys30002579"
+         x="735"
+         y="105"
+         width="62.5"
+         height="30"
+         xlink:href="#def30002579" />
+      <use
+         id="sys30002578"
+         x="775"
+         y="135"
+         width="62.5"
+         height="30"
+         xlink:href="#def30002578" />
+      <use
+         id="sys30002576"
+         x="785"
+         y="225"
+         width="62.5"
+         height="30"
+         xlink:href="#def30002576" />
+      <use
+         id="sys30002577"
+         x="800"
+         y="180"
+         width="62.5"
+         height="30"
+         xlink:href="#def30002577" />
+    </g>
+  </g>
+</svg>
