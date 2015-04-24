@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% load staticfiles %}
+{% load humanize %}
+{% load eve_tags %}
+
+{% block title %}Stratop – {{ block.super }}{% endblock %}
+
+{% block jumbotron %}
+{% endblock %}
+
+{% block content %}
+<object id="map" data="{% static "svg/" %}{{stratop.constellation.name}}.svg" type="image/svg+xml" width="500" height="500"></object>
+{% endblock %}

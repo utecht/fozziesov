@@ -1,4 +1,6 @@
 from django.conf.urls import patterns, include, url
+from django.conf.urls.static import static
+from django.conf import settings
 from django.contrib.auth.decorators import login_required
 
 from django.contrib import admin
@@ -16,4 +18,4 @@ urlpatterns = patterns(
     url(r'^test/$', 'main.views.test', name='main_test'),
     url(r'^stratop/(?P<stratop_id>[^/]+)/?$', 'main.views.stratop_state', name='main_stratop'),
 
-)
+) + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
