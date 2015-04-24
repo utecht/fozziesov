@@ -9,7 +9,7 @@ from django.db.models import (Model,
 from crest_app.models import EveUser
 
 class Alliance(Model):
-    alliance_id = IntegerField()
+    alliance_id = IntegerField(unique=True)
     name = CharField(max_length=200)
     ticker = CharField(max_length=5)
 
@@ -17,7 +17,7 @@ class Alliance(Model):
         return "[{}] {}".format(self.ticker, self.name)
 
 class Corporation(Model):
-    corporation_id = IntegerField()
+    corporation_id = IntegerField(unique=True)
     name = CharField(max_length=200)
     ticker = CharField(max_length=5)
     alliance = ForeignKey(Alliance)
@@ -26,7 +26,7 @@ class Corporation(Model):
         return "[{}] {}".format(self.ticker, self.name)
 
 class Character(Model):
-    character_id = IntegerField()
+    character_id = IntegerField(unique=True)
     name = CharField(max_length=50)
     corporation = ForeignKey(Corporation)
 
@@ -34,7 +34,7 @@ class Character(Model):
         return "{}".format(self.name)
 
 class Constellation(Model):
-    const_id = IntegerField()
+    const_id = IntegerField(unique=True)
     region = CharField(max_length=50)
     name = CharField(max_length=50)
 
@@ -42,7 +42,7 @@ class Constellation(Model):
         return "{} - {}".format(self.name, self.region)
 
 class System(Model):
-    system_id = IntegerField()
+    system_id = IntegerField(unique=True)
     constellation = ForeignKey(Constellation)
     name = CharField(max_length=50)
 
@@ -50,7 +50,7 @@ class System(Model):
         return "{}".format(self.name)
 
 class Structure(Model):
-    structure_id = IntegerField()
+    structure_id = IntegerField(unique=True)
     name = CharField(max_length=50)
 
     def __str__(self):
