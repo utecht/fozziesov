@@ -1,5 +1,5 @@
 # Create your views here.
-from django.shortcuts import redirect, HttpResponse
+from django.shortcuts import redirect, HttpResponse, render
 from django.contrib.auth.decorators import login_required
 
 from .models import *
@@ -23,6 +23,6 @@ def test(request):
 @login_required
 def stratop_state(request, stratop_id):
     op = Stratop.objects.get(pk=stratop_id)
-
-    return HttpResponse(op.good_guys.name)
+    d = { 'stratop': op }
+    return render(request, 'stratop.html', d)
 
