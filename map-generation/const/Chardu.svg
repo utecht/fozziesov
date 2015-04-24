@@ -1,0 +1,535 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="svgdoc"
+   width="459.55325"
+   height="123.65811"
+   viewBox="0 0 459.55325 123.65811"
+   onload="init(evt)"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="Chardu.svg">
+  <metadata
+     id="metadata99">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs97" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="640"
+     inkscape:window-height="480"
+     id="namedview95"
+     showgrid="false"
+     inkscape:zoom="0.30729167"
+     inkscape:cx="94.553267"
+     inkscape:cy="-122.34189"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svgdoc" />
+  <style
+     type="text/css"
+     id="style3">
+
+/* jumps */
+.j	{ stroke: #000000; stroke-width: 1; }
+.jc	{ stroke: #FF0000; stroke-width: 1; }
+.jr	{ stroke: #800080; stroke-width: 1; }
+.jx	{ stroke: #000000; stroke-width: 3; }
+.jxc	{ stroke: #FF0000; stroke-width: 3; }
+.jxr	{ stroke: #800080; stroke-width: 3; }
+.jb	{ stroke: #0000FF; stroke-width: 3; fill: none; }
+
+/* external system */
+.eh	{ stroke: #00B000; stroke-width: 1; fill: #CCCCCC; }
+.el	{ stroke: #F00000; stroke-width: 1; stroke-dasharray: 8, 4; fill: #CCCCCC; }
+.e	{ stroke: #000000; stroke-width: 1; fill: #CCCCCC; }
+.exh	{ stroke: #00B000; stroke-width: 2; fill: #CCCCCC; }
+.exl	{ stroke: #F00000; stroke-width: 2; stroke-dasharray: 8, 3; fill: #CCCCCC; }
+.ex	{ stroke: #000000; stroke-width: 2; fill: #CCCCCC; }
+
+/* external system text */ 
+.es	{ font-size: 9px; font-family: Arial, Helvetica, sans-serif; fill: #000000; }
+.er	{ font-weight: bold; font-size: 7px; font-family: verdana, Arial, sans-serif; fill: #000000; }
+
+/* system */
+.sh	{ stroke: #00B000; stroke-width: 1; }
+.sl	{ stroke: #F00000; stroke-width: 1; stroke-dasharray: 8, 3 }
+.s	{ stroke: #000000; stroke-width: 1; }
+.sxh	{ stroke: #00B000; stroke-width: 2.5; }
+.sxl	{ stroke: #F00000; stroke-width: 2.5; stroke-dasharray: 8, 3; }
+.sx	{ stroke: #000000; stroke-width: 2.5; }
+.scl	{ stroke: transparent; stroke-width: 2; fill: transparent; }
+
+/* system text */
+.ss	{ font-family: Arial, Helvetica, sans-serif; font-size: 9px; fill: #000000; }
+.st	{ font-weight: bold; font-size: 7px; font-family: verdana, Arial, sans-serif; fill: #000000; }
+.so	{ fill: #ff0000; }
+.i	{ stroke: #0080FF; stroke-width: 1; fill: none; }
+
+/* station */
+.o	{ fill: #ffffff; }
+.oc	{ fill: #0000FF; }
+.oa	{ fill: #FFDC00; }
+.og	{ fill: #00FF00; }
+.om	{ fill: #FF0000; }
+.o1	{ fill: #ffffff; stroke-width: 0.5; stroke: #000000; }
+.o2	{ fill: #ffffff; stroke-width: 0.5; stroke: #000000; }
+.oo	{ fill: none; stroke: #000000; stroke-width: 1; }
+
+/* station services */
+.v1	{ fill: #FF0000; }
+.v2	{ fill: #00FF00; }
+.v3	{ fill: #FFDC00; }
+.v4	{ fill: #0000FF; }
+
+/* legend */
+.lb	{ stroke-width: 1; stroke: #000000; fill: #ffffff; }
+.lbt	{ stroke-width: 1; stroke: #000000; fill: #ffffff; }
+.lt	{ fill: #000000; font-family: Arial, Helvetica, sans-serif; font-weight: bold; font-size: 12px; }
+.lc	{ fill: #000000; font-family: Arial, Helvetica, sans-serif; font-size: 11px; }
+.l	{ fill: #000000; font-family: Arial, Helvetica, sans-serif; font-size: 10px; }
+
+/* highlight */
+.h	{ fill: none; stroke-width: 3; stroke: #000000; }
+.hw	{ fill: none; stroke-width: 2; stroke: #00AA00; }
+.hl	{ fill: none; stroke-width: 2; stroke: #F00000; }
+.hg	{ fill: none; stroke-width: 2; stroke: #00B000; }
+
+/* incursion */
+.inc	{ fill: url(#incBg); }
+.incs	{ fill: url(#incStBg); }
+
+/* contested */
+.con	{ fill: url(#conBg); }
+
+</style>
+  <g
+     id="map"
+     transform="translate(-417.44673,-138)">
+    <defs
+       id="defs6">
+      <symbol
+         id="def30003514">
+        <g
+           id="g9">
+          <rect
+             id="rect30003514"
+             x="4"
+             y="3.5"
+             rx="8.25"
+             ry="8.25"
+             width="37.5"
+             height="16.5"
+             class="sh"
+             style="fill:#efeae0;stroke:#00b000;stroke-width:1" />
+          <text
+             x="21.75"
+             y="11.25"
+             class="ss"
+             id="text12"
+             style="font-size:9px;font-family:Arial, Helvetica, sans-serif;text-anchor:middle;fill:#000000">Yeeramoun</text>
+          <text
+             id="txt30003514"
+             x="21.75"
+             y="17.025"
+             class="st"
+             style="font-weight:bold;font-size:7px;font-family:verdana, Arial, sans-serif;text-anchor:middle;fill:#000000" />
+        </g>
+      </symbol>
+      <symbol
+         id="def30003513">
+        <g
+           id="g16">
+          <rect
+             id="rect30003513"
+             x="4"
+             y="3.5"
+             rx="8.25"
+             ry="8.25"
+             width="37.5"
+             height="16.5"
+             class="sh"
+             style="fill:#efeae0;stroke:#00b000;stroke-width:1" />
+          <text
+             x="21.75"
+             y="11.25"
+             class="ss"
+             id="text19"
+             style="font-size:9px;font-family:Arial, Helvetica, sans-serif;text-anchor:middle;fill:#000000">Ides</text>
+          <text
+             id="txt30003513"
+             x="21.75"
+             y="17.025"
+             class="st"
+             style="font-weight:bold;font-size:7px;font-family:verdana, Arial, sans-serif;text-anchor:middle;fill:#000000" />
+        </g>
+      </symbol>
+      <symbol
+         id="def30003519">
+        <g
+           id="g23">
+          <rect
+             id="rect30003519"
+             x="4"
+             y="3.5"
+             rx="8.25"
+             ry="8.25"
+             width="37.5"
+             height="16.5"
+             class="sh"
+             style="fill:#efeae0;stroke:#00b000;stroke-width:1" />
+          <text
+             x="21.75"
+             y="11.25"
+             class="ss"
+             id="text26"
+             style="font-size:9px;font-family:Arial, Helvetica, sans-serif;text-anchor:middle;fill:#000000">Lahnina</text>
+          <text
+             id="txt30003519"
+             x="21.75"
+             y="17.025"
+             class="st"
+             style="font-weight:bold;font-size:7px;font-family:verdana, Arial, sans-serif;text-anchor:middle;fill:#000000" />
+        </g>
+      </symbol>
+      <symbol
+         id="def30003518">
+        <g
+           id="g30">
+          <rect
+             id="rect30003518"
+             x="4"
+             y="3.5"
+             rx="8.25"
+             ry="8.25"
+             width="37.5"
+             height="16.5"
+             class="sh"
+             style="fill:#efeae0;stroke:#00b000;stroke-width:1" />
+          <text
+             x="21.75"
+             y="11.25"
+             class="ss"
+             id="text33"
+             style="font-size:9px;font-family:Arial, Helvetica, sans-serif;text-anchor:middle;fill:#000000">Saheri</text>
+          <text
+             id="txt30003518"
+             x="21.75"
+             y="17.025"
+             class="st"
+             style="font-weight:bold;font-size:7px;font-family:verdana, Arial, sans-serif;text-anchor:middle;fill:#000000" />
+        </g>
+      </symbol>
+      <symbol
+         id="def30003515">
+        <g
+           id="g37">
+          <rect
+             id="rect30003515"
+             x="4"
+             y="3.5"
+             rx="8.25"
+             ry="8.25"
+             width="37.5"
+             height="16.5"
+             class="sh"
+             style="fill:#efeae0;stroke:#00b000;stroke-width:1" />
+          <text
+             x="21.75"
+             y="11.25"
+             class="ss"
+             id="text40"
+             style="font-size:9px;font-family:Arial, Helvetica, sans-serif;text-anchor:middle;fill:#000000">Anila</text>
+          <text
+             id="txt30003515"
+             x="21.75"
+             y="17.025"
+             class="st"
+             style="font-weight:bold;font-size:7px;font-family:verdana, Arial, sans-serif;text-anchor:middle;fill:#000000" />
+        </g>
+      </symbol>
+      <symbol
+         id="def30003517">
+        <g
+           id="g44">
+          <rect
+             id="rect30003517"
+             x="4"
+             y="3.5"
+             rx="8.25"
+             ry="8.25"
+             width="37.5"
+             height="16.5"
+             class="sh"
+             style="fill:#efeae0;stroke:#00b000;stroke-width:1" />
+          <text
+             x="21.75"
+             y="11.25"
+             class="ss"
+             id="text47"
+             style="font-size:9px;font-family:Arial, Helvetica, sans-serif;text-anchor:middle;fill:#000000">Etav</text>
+          <text
+             id="txt30003517"
+             x="21.75"
+             y="17.025"
+             class="st"
+             style="font-weight:bold;font-size:7px;font-family:verdana, Arial, sans-serif;text-anchor:middle;fill:#000000" />
+        </g>
+      </symbol>
+      <symbol
+         id="def30003516">
+        <g
+           id="g51">
+          <rect
+             id="rect30003516"
+             x="4"
+             y="3.5"
+             rx="8.25"
+             ry="8.25"
+             width="37.5"
+             height="16.5"
+             class="sh"
+             style="fill:#efeae0;stroke:#00b000;stroke-width:1" />
+          <text
+             x="21.75"
+             y="11.25"
+             class="ss"
+             id="text54"
+             style="font-size:9px;font-family:Arial, Helvetica, sans-serif;text-anchor:middle;fill:#000000">Pedel</text>
+          <text
+             id="txt30003516"
+             x="21.75"
+             y="17.025"
+             class="st"
+             style="font-weight:bold;font-size:7px;font-family:verdana, Arial, sans-serif;text-anchor:middle;fill:#000000" />
+        </g>
+      </symbol>
+      <radialGradient
+         id="conBg">
+        <stop
+           offset="50%"
+           stop-color="#FFA0FF"
+           id="stop58" />
+        <stop
+           offset="95%"
+           stop-color="#FFA0FF"
+           stop-opacity="0"
+           id="stop60" />
+      </radialGradient>
+      <radialGradient
+         id="incBg">
+        <stop
+           offset="50%"
+           stop-color="#AFCE00"
+           id="stop63" />
+        <stop
+           offset="100%"
+           stop-color="#AFCE00"
+           stop-opacity="0"
+           id="stop65" />
+      </radialGradient>
+      <radialGradient
+         id="incStBg">
+        <stop
+           offset="50%"
+           stop-color="#808000"
+           id="stop68" />
+        <stop
+           offset="100%"
+           stop-color="#808000"
+           stop-opacity="0"
+           id="stop70" />
+      </radialGradient>
+    </defs>
+    <g
+       id="jumps">
+      <line
+         id="j-30003514-30003490"
+         x1="417.5"
+         y1="146.5"
+         x2="697.5"
+         y2="176.5"
+         class="jc"
+         style="stroke:#ff0000;stroke-width:1" />
+      <line
+         id="j-30003514-30003513"
+         x1="747.5"
+         y1="146.5"
+         x2="697.5"
+         y2="176.5"
+         class="j"
+         style="stroke:#000000;stroke-width:1" />
+      <line
+         id="j-30003517-30003513"
+         x1="747.5"
+         y1="146.5"
+         x2="812.5"
+         y2="156.5"
+         class="j"
+         style="stroke:#000000;stroke-width:1" />
+      <line
+         id="j-30003515-30003514"
+         x1="697.5"
+         y1="176.5"
+         x2="787.5"
+         y2="231.5"
+         class="j"
+         style="stroke:#000000;stroke-width:1" />
+      <line
+         id="j-30003517-30003514"
+         x1="697.5"
+         y1="176.5"
+         x2="812.5"
+         y2="156.5"
+         class="j"
+         style="stroke:#000000;stroke-width:1" />
+      <line
+         id="j-30003516-30003515"
+         x1="787.5"
+         y1="231.5"
+         x2="857.5"
+         y2="191.5"
+         class="j"
+         style="stroke:#000000;stroke-width:1" />
+      <line
+         id="j-30003517-30003515"
+         x1="787.5"
+         y1="231.5"
+         x2="812.5"
+         y2="156.5"
+         class="j"
+         style="stroke:#000000;stroke-width:1" />
+      <line
+         id="j-30003518-30003515"
+         x1="787.5"
+         y1="231.5"
+         x2="772.5"
+         y2="201.5"
+         class="j"
+         style="stroke:#000000;stroke-width:1" />
+      <line
+         id="j-30003531-30003515"
+         x1="787.5"
+         y1="231.5"
+         x2="797.5"
+         y2="261.5"
+         class="jc"
+         style="stroke:#ff0000;stroke-width:1" />
+      <line
+         id="j-30003533-30003515"
+         x1="787.5"
+         y1="231.5"
+         x2="862.5"
+         y2="246.5"
+         class="jc"
+         style="stroke:#ff0000;stroke-width:1" />
+      <line
+         id="j-30003535-30003515"
+         x1="787.5"
+         y1="231.5"
+         x2="857.5"
+         y2="221.5"
+         class="jc"
+         style="stroke:#ff0000;stroke-width:1" />
+      <line
+         id="j-30003517-30003516"
+         x1="857.5"
+         y1="191.5"
+         x2="812.5"
+         y2="156.5"
+         class="j"
+         style="stroke:#000000;stroke-width:1" />
+      <line
+         id="j-30003519-30003517"
+         x1="812.5"
+         y1="156.5"
+         x2="767.5"
+         y2="176.5"
+         class="j"
+         style="stroke:#000000;stroke-width:1" />
+      <line
+         id="j-30003519-30003518"
+         x1="772.5"
+         y1="201.5"
+         x2="767.5"
+         y2="176.5"
+         class="j"
+         style="stroke:#000000;stroke-width:1" />
+    </g>
+    <g
+       id="sysuse">
+      <use
+         id="sys30003514"
+         x="675"
+         y="165"
+         width="48.625"
+         height="24.5"
+         xlink:href="#def30003514" />
+      <use
+         id="sys30003513"
+         x="725"
+         y="135"
+         width="48.625"
+         height="24.5"
+         xlink:href="#def30003513" />
+      <use
+         id="sys30003519"
+         x="745"
+         y="165"
+         width="48.625"
+         height="24.5"
+         xlink:href="#def30003519" />
+      <use
+         id="sys30003518"
+         x="750"
+         y="190"
+         width="48.625"
+         height="24.5"
+         xlink:href="#def30003518" />
+      <use
+         id="sys30003515"
+         x="765"
+         y="220"
+         width="48.625"
+         height="24.5"
+         xlink:href="#def30003515" />
+      <use
+         id="sys30003517"
+         x="790"
+         y="145"
+         width="48.625"
+         height="24.5"
+         xlink:href="#def30003517" />
+      <use
+         id="sys30003516"
+         x="835"
+         y="180"
+         width="48.625"
+         height="24.5"
+         xlink:href="#def30003516" />
+    </g>
+  </g>
+</svg>
