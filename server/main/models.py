@@ -13,30 +13,48 @@ class Alliance(Model):
     name = CharField(max_length=200)
     ticker = CharField(max_length=5)
 
+    def __str__(self):
+        return "[{}] {}".format(self.ticker, self.name)
+
 class Corporation(Model):
     corporation_id = IntegerField()
     name = CharField(max_length=200)
     ticker = CharField(max_length=5)
     alliance = ForeignKey(Alliance)
 
+    def __str__(self):
+        return "[{}] {}".format(self.ticker, self.name)
+
 class Character(Model):
     character_id = IntegerField()
     name = CharField(max_length=50)
     corporation = ForeignKey(Corporation)
+
+    def __str__(self):
+        return "{}".format(self.name)
 
 class Constellation(Model):
     const_id = IntegerField()
     region = CharField(max_length=50)
     name = CharField(max_length=50)
 
+    def __str__(self):
+        return "{} - {}".format(self.name, self.region)
+
 class System(Model):
     system_id = IntegerField()
     constellation = ForeignKey(Constellation)
     name = CharField(max_length=50)
 
+    def __str__(self):
+        return "{}".format(self.name)
+
 class Structure(Model):
     structure_id = IntegerField()
     name = CharField(max_length=50)
+
+    def __str__(self):
+        return "{}".format(self.name)
 
 class Stratop(Model):
     constellation = ForeignKey(Constellation)
@@ -44,25 +62,40 @@ class Stratop(Model):
     user = ForeignKey(EveUser)
     date = DateTimeField()
 
+    def __str__(self):
+        return "{} - {} - {}".format(self.constellation.name, self.user.username, self.date)
+
 class Battle(Model):
     stratop = ForeignKey(Stratop)
     system = ForeignKey(System)
     structure = ForeignKey(Structure)
 
+    def __str__(self):
+        return "{} - {}".format(self.system.name, self.structure.name)
+
 class ControlNode(Model):
     battle = ForeignKey(Battle)
     system = ForeignKey(System)
-    control = ForeignKey(Alliance, null=True)
+    control = ForeignKey(Alliance, blank=True, null=True)
+
+    def __str__(self):
+        return "{} - {} - {}".format(self.battle, self.system, self.control)
 
 class AllianceState(Model):
     stratop = ForeignKey(Stratop)
     alliance = ForeignKey(Alliance)
     number = IntegerField()
 
+    def __str__(self):
+        return "{} - {}".format(self.alliance, self.number)
+
 class Event(Model):
-    time = DateField()
+    time = DateTimeField()
     stratop = ForeignKey(Stratop)
     text = CharField(max_length=50)
+
+    def __str__(self):
+        return "{}".format(self.text)
 
 class SystemAllianceState(Model):
     stratop = ForeignKey(Stratop)
@@ -70,8 +103,14 @@ class SystemAllianceState(Model):
     system = ForeignKey(System)
     number = IntegerField()
 
+    def __str__(self):
+        return "{} - {} - {}".format(self.system, self.alliance, self.number)
+
 class SystemEvent(Model):
     stratop = ForeignKey(Stratop)
     system = ForeignKey(System)
-    time = DateField()
+    time = DateTimeField()
     text = CharField(max_length=50)
+
+    def __str__(self):
+        return "{} - {}".format(self.system, self.text)
