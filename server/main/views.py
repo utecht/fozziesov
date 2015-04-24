@@ -4,13 +4,21 @@ from django.contrib.auth.decorators import login_required
 
 from .models import *
 
+@login_required
 def test(request):
     user = request.user
+    userinfo = request.session['userinfo']
+
+    alliance = Alliance.objects.get(alliance_id=userinfo['allianceid'])
+    ops = Stratop.objects.filter(good_guys=alliance)
     
-    print("User here:")
-    print(repr(user))
-    print(user.character_id)
-    return HttpResponse("user? {}".format(request.user))
+    html = "user? {}<br/>".format(request.user)
+    html += "alliance_id: {}<br/>".format(userinfo['allianceid'])
+    html += "Alliance: {}<br/>".format(alliance.name)
+    for o in ops:
+        html += "Op: {}<br/>".format(o.constellation.name)
+
+    return HttpResponse(html)
 
 @login_required
 def stratop_state(request, stratop_id):

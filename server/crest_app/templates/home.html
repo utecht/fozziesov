@@ -22,4 +22,13 @@
 {% endblock %}
 
 {% block content %}
+{% if ops %}
+<ul>
+{% for op in ops %}
+<li><a href="{% url "main_stratop" op.id %}">{{ op.constellation.name }} - {{ op.user.username }} - {{ op.date }}</a></li>
+{% endfor %}
+</ul>
+{% else %}
+<p>No ops found!</p>
+{% endif %}
 {% endblock %}

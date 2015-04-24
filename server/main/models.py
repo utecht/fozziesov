@@ -3,7 +3,10 @@ from django.db.models import (Model,
                               ForeignKey,
                               CharField, 
                               IntegerField, 
-                              DateField)
+                              DateField,
+                              DateTimeField)
+
+from crest_app.models import EveUser
 
 class Alliance(Model):
     alliance_id = IntegerField()
@@ -38,6 +41,8 @@ class Structure(Model):
 class Stratop(Model):
     constellation = ForeignKey(Constellation)
     good_guys = ForeignKey(Alliance)
+    user = ForeignKey(EveUser)
+    date = DateTimeField()
 
 class Battle(Model):
     stratop = ForeignKey(Stratop)
