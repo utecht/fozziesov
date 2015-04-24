@@ -4,11 +4,50 @@
 {% load humanize %}
 {% load eve_tags %}
 
+{% block anghtml %}ng-app="fozziesovApp"{% endblock %}
 {% block title %}Stratop – {{ block.super }}{% endblock %}
-
+{% block head %}
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
+<script src="{% static "controllers.js" %}"></script>
+{% endblock %}
+{% block angbody %}ng-controller="StratopCtrl"{% endblock %}
 {% block jumbotron %}
+<div class="row" ng-repeat="battle in stratop.battles">
+    <span class="col-md-8 h1">Battle for {{battle.sysname}} {{battle.structname}}</span>
+    <ul>
+        <li ng-repeat="node in battle.nodes">
+            <span>{{node.control}} - {{node.name}}</span>
+        </li>
+    </ul>
+</div>
 {% endblock %}
 
 {% block content %}
+<div>
+    <span>Battle Tracker</span>
+    <ul>
+        <li ng-repeat="corp in stratop.status.corps">
+            <span>{{corp.name}} - {{corp.num}}</span>
+        </li>
+    </ul>
+    <ul>
+        <li ng-repeat="event in stratop.status.events">
+            <span>{{event.text}}</span>
+        </li>
+    </ul>
+</div>
 <object id="map" data="{% static "svg/" %}{{stratop.constellation.name}}.svg" type="image/svg+xml" width="500" height="500"></object>
+<div ng-repeat="system in stratop.systems">
+    <span>{{system.name}}</span>
+    <ul>
+        <li ng-repeat="corp in system.corps">
+            <span>{{corp.name}} - {{corp.num}}</span>
+        </li>
+    </ul>
+    <ul>
+        <li ng-repeat="event in system.events">
+            <span>{{event.time}} - {{event.text}}</span>
+        </li>
+    </ul>
+</div>
 {% endblock %}

@@ -1,19 +1,14 @@
 <!DOCTYPE html>
 {% load staticfiles %}
-<html>
+<html lang="en" {% block anghtml %}{% endblock %}>
     <head>
         <meta charset='utf-8' />
         <meta name='viewport' content='width=device-width, initial-scale=1' />
         <title>{% block title %}Fozziesov{% endblock %}</title>
-
+        {% block head %}{% endblock %}
         <link href='https://bootswatch.com/cosmo/bootstrap.min.css' type='text/css' rel='stylesheet' />
-        <style type="text/css">
-            .isk {font-family: monospace;}
-            .sell .isk {color: #01f501;}
-            .buy .isk {color: #f30202;}
-        </style>
     </head>
-    <body role='document' style="padding-top: 50px;">
+    <body role='document' style="padding-top: 50px;" {% block angbod %}{% endblock %}>
         <nav class="navbar navbar-inverse navbar-fixed-top">
             <div class="container">
                 <div class="navbar-header">
