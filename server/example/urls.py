@@ -17,5 +17,6 @@ urlpatterns = patterns(
     url('', include('social.apps.django_app.urls', namespace='social')),
     url(r'^test/$', 'main.views.test', name='main_test'),
     url(r'^stratop/(?P<stratop_id>[^/]+)/?$', 'main.views.stratop_state', name='main_stratop'),
+    url(r'^test/(?P<stratop_id>[^/]+)/?$', 'main.views.test', name='main_test'),
 
 ) + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)

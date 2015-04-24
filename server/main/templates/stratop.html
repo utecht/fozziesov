@@ -12,6 +12,7 @@
 {% endblock %}
 {% block angbody %}ng-controller="StratopCtrl"{% endblock %}
 {% block jumbotron %}
+{% verbatim %}
 <div class="row" ng-repeat="battle in stratop.battles">
     <span class="col-md-8 h1">Battle for {{battle.sysname}} {{battle.structname}}</span>
     <ul>
@@ -20,9 +21,11 @@
         </li>
     </ul>
 </div>
+{% endverbatim %}
 {% endblock %}
 
 {% block content %}
+{% verbatim %}
 <div>
     <span>Battle Tracker</span>
     <ul>
@@ -36,7 +39,9 @@
         </li>
     </ul>
 </div>
+{% endverbatim %}
 <object id="map" data="{% static "svg/" %}{{stratop.constellation.name}}.svg" type="image/svg+xml" width="500" height="500"></object>
+{% verbatim %}
 <div ng-repeat="system in stratop.systems">
     <span>{{system.name}}</span>
     <ul>
@@ -50,4 +55,5 @@
         </li>
     </ul>
 </div>
+{% endverbatim %}
 {% endblock %}
