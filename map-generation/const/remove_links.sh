@@ -5,4 +5,5 @@
 # is only useful for these dotlan map svgs.
 #
 
+echo "Removing links from all svgs..."
 sed -i 's/<a.*$/<g>/g;s/<\/a>/<\/g>/g' *.svg

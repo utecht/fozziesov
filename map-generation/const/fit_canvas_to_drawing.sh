@@ -6,8 +6,7 @@
 # at first, but then it leaves a window open for every file converted,
 # so once you get past 10 or 20 the whole thing craps out.
 #
-# There is probably a "fake" X server you could use to supress the output,
-# or use vncserver or some such.
+# You could use Xvfb or use vncserver or some such to supress the GUI otuput.
 #
 
 inkscape --verb=FitCanvasToDrawing --verb=FileSave --verb=FileClose --verb=FileQuit "$1"
