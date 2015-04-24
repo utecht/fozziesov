@@ -60,7 +60,10 @@ class HomeView(TemplateView):
 
         userinfo = self.request.session['userinfo']
         if userinfo['allianceid']:
-            alliance = Alliance.objects.get(alliance_id=userinfo['allianceid'])
+            alliance, created = Alliance.objects.get_or_create(alliance_id=userinfo['allianceid'])
+            if created:
+                alliance.name = userinfo['alliance']
+                alliance.save()
             context['ops'] = Stratop.objects.filter(good_guys=alliance)
 
         return context
